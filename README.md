@@ -35,7 +35,6 @@
     ```kotlin
     rootProject.name = "game-todo"
     include("gt-back")
-    include("e2e")
     ```
 - `gt-back`と`e2e`フォルダ直下にそれぞれ`build.gradle.kts`を作成し、プロジェクトのビルド設定を定義します。
 
