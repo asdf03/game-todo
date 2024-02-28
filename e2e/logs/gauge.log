@@ -1,0 +1,467 @@
+29-02-2024 00:10:58.818 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/masaya/source/game-todo/e2e/.gauge/screenshots
+29-02-2024 00:10:58.818 [Gauge] [DEBUG] Plugin java is already installed.
+29-02-2024 00:10:58.818 [Gauge] [DEBUG] Plugin html-report is already installed.
+29-02-2024 00:10:58.819 [Gauge] [DEBUG] Parsing started.
+29-02-2024 00:10:58.819 [Gauge] [DEBUG] Started concepts parsing.
+29-02-2024 00:10:58.819 [Gauge] [DEBUG] 0 concepts parsing completed.
+29-02-2024 00:10:58.819 [Gauge] [DEBUG] Started specifications parsing.
+29-02-2024 00:10:58.819 [Gauge] [DEBUG] 1 specifications parsing completed.
+29-02-2024 00:10:58.819 [Gauge] [DEBUG] Parsing completed.
+29-02-2024 00:10:58.820 [Gauge] [DEBUG] Checking updates...
+29-02-2024 00:10:58.820 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=linux&a=amd64
+29-02-2024 00:10:58.820 [Gauge] [DEBUG] Failed to download html-report-install.json file: Get "https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=linux&a=amd64": dial tcp: lookup downloads.gauge.org on [::1]:53: read udp [::1]:56966->[::1]:53: read: connection refused
+29-02-2024 00:10:58.820 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=linux&a=amd64
+29-02-2024 00:10:58.821 [Gauge] [DEBUG] Failed to download java-install.json file: Get "https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=linux&a=amd64": dial tcp: lookup downloads.gauge.org on [::1]:53: read udp [::1]:48145->[::1]:53: read: connection refused
+29-02-2024 00:10:58.822 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=linux&a=amd64
+29-02-2024 00:10:58.822 [Gauge] [DEBUG] Failed to download screenshot-install.json file: Get "https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=linux&a=amd64": dial tcp: lookup downloads.gauge.org on [::1]:53: read udp [::1]:59642->[::1]:53: read: connection refused
+29-02-2024 00:10:58.834 [java] [DEBUG] ***** Printing Properties/Env Values *****
+29-02-2024 00:10:58.834 [java] [DEBUG] PATH: /home/masaya/.asdf/installs/gauge/1.5.4/bin:/home/masaya/.asdf/shims:/home/masaya/.asdf/shims:/home/masaya/.asdf/shims:/home/masaya/.asdf/bin:/home/masaya/.bun/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/masaya/.gauge/plugins/screenshot/0.1.0
+29-02-2024 00:10:58.834 [java] [DEBUG] JAVA_HOME: /home/masaya/.asdf/installs/java/openjdk-11
+29-02-2024 00:10:58.834 [java] [DEBUG] gauge_project_root: 
+29-02-2024 00:10:58.834 [java] [DEBUG] gauge_parallel_streams_count: 
+29-02-2024 00:10:58.834 [java] [DEBUG] gauge_reports_dir: reports
+29-02-2024 00:10:58.834 [java] [DEBUG] overwrite_reports: true
+29-02-2024 00:10:58.834 [java] [DEBUG] logs_directory: logs
+29-02-2024 00:10:58.834 [java] [DEBUG] enable_multithreading: 
+29-02-2024 00:10:58.834 [java] [DEBUG] gauge_specs_dir: specs
+29-02-2024 00:10:58.834 [java] [DEBUG] csv_delimiter: ,
+29-02-2024 00:10:58.834 [java] [DEBUG] gauge_java_home: 
+29-02-2024 00:10:58.834 [java] [DEBUG] gauge_custom_build_path: 
+29-02-2024 00:10:58.834 [java] [DEBUG] gauge_additional_libs: 
+29-02-2024 00:10:58.834 [java] [DEBUG] gauge_jvm_args: 
+29-02-2024 00:10:58.834 [java] [DEBUG] gauge_custom_compile_dir: 
+29-02-2024 00:10:58.834 [java] [DEBUG] gauge_clear_state_level: 
+29-02-2024 00:10:58.834 [java] [DEBUG] ***** END *****
+29-02-2024 00:10:58.855 [java] [ERROR] Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+29-02-2024 00:11:01.061 [java] [DEBUG] classpath set to /usr/lib/jvm/java-21-openjdk!/java.base:/usr/lib/jvm/java-21-openjdk!/java.compiler:/usr/lib/jvm/java-21-openjdk!/java.datatransfer:/usr/lib/jvm/java-21-openjdk!/java.desktop:/usr/lib/jvm/java-21-openjdk!/java.instrument:/usr/lib/jvm/java-21-openjdk!/java.logging:/usr/lib/jvm/java-21-openjdk!/java.management:/usr/lib/jvm/java-21-openjdk!/java.management.rmi:/usr/lib/jvm/java-21-openjdk!/java.naming:/usr/lib/jvm/java-21-openjdk!/java.net.http:/usr/lib/jvm/java-21-openjdk!/java.prefs:/usr/lib/jvm/java-21-openjdk!/java.rmi:/usr/lib/jvm/java-21-openjdk!/java.scripting:/usr/lib/jvm/java-21-openjdk!/java.se:/usr/lib/jvm/java-21-openjdk!/java.security.jgss:/usr/lib/jvm/java-21-openjdk!/java.security.sasl:/usr/lib/jvm/java-21-openjdk!/java.smartcardio:/usr/lib/jvm/java-21-openjdk!/java.sql:/usr/lib/jvm/java-21-openjdk!/java.sql.rowset:/usr/lib/jvm/java-21-openjdk!/java.transaction.xa:/usr/lib/jvm/java-21-openjdk!/java.xml:/usr/lib/jvm/java-21-openjdk!/java.xml.crypto:/usr/lib/jvm/java-21-openjdk!/jdk.accessibility:/usr/lib/jvm/java-21-openjdk!/jdk.attach:/usr/lib/jvm/java-21-openjdk!/jdk.charsets:/usr/lib/jvm/java-21-openjdk!/jdk.compiler:/usr/lib/jvm/java-21-openjdk!/jdk.crypto.cryptoki:/usr/lib/jvm/java-21-openjdk!/jdk.crypto.ec:/usr/lib/jvm/java-21-openjdk!/jdk.dynalink:/usr/lib/jvm/java-21-openjdk!/jdk.editpad:/usr/lib/jvm/java-21-openjdk!/jdk.hotspot.agent:/usr/lib/jvm/java-21-openjdk!/jdk.httpserver:/usr/lib/jvm/java-21-openjdk!/jdk.incubator.vector:/usr/lib/jvm/java-21-openjdk!/jdk.internal.ed:/usr/lib/jvm/java-21-openjdk!/jdk.internal.jvmstat:/usr/lib/jvm/java-21-openjdk!/jdk.internal.le:/usr/lib/jvm/java-21-openjdk!/jdk.internal.opt:/usr/lib/jvm/java-21-openjdk!/jdk.internal.vm.ci:/usr/lib/jvm/java-21-openjdk!/jdk.internal.vm.compiler:/usr/lib/jvm/java-21-openjdk!/jdk.internal.vm.compiler.management:/usr/lib/jvm/java-21-openjdk!/jdk.jartool:/usr/lib/jvm/java-21-openjdk!/jdk.javadoc:/usr/lib/jvm/java-21-openjdk!/jdk.jcmd:/usr/lib/jvm/java-21-openjdk!/jdk.jconsole:/usr/lib/jvm/java-21-openjdk!/jdk.jdeps:/usr/lib/jvm/java-21-openjdk!/jdk.jdi:/usr/lib/jvm/java-21-openjdk!/jdk.jdwp.agent:/usr/lib/jvm/java-21-openjdk!/jdk.jfr:/usr/lib/jvm/java-21-openjdk!/jdk.jlink:/usr/lib/jvm/java-21-openjdk!/jdk.jpackage:/usr/lib/jvm/java-21-openjdk!/jdk.jshell:/usr/lib/jvm/java-21-openjdk!/jdk.jsobject:/usr/lib/jvm/java-21-openjdk!/jdk.jstatd:/usr/lib/jvm/java-21-openjdk!/jdk.localedata:/usr/lib/jvm/java-21-openjdk!/jdk.management:/usr/lib/jvm/java-21-openjdk!/jdk.management.agent:/usr/lib/jvm/java-21-openjdk!/jdk.management.jfr:/usr/lib/jvm/java-21-openjdk!/jdk.naming.dns:/usr/lib/jvm/java-21-openjdk!/jdk.naming.rmi:/usr/lib/jvm/java-21-openjdk!/jdk.net:/usr/lib/jvm/java-21-openjdk!/jdk.nio.mapmode:/usr/lib/jvm/java-21-openjdk!/jdk.random:/usr/lib/jvm/java-21-openjdk!/jdk.sctp:/usr/lib/jvm/java-21-openjdk!/jdk.security.auth:/usr/lib/jvm/java-21-openjdk!/jdk.security.jgss:/usr/lib/jvm/java-21-openjdk!/jdk.unsupported:/usr/lib/jvm/java-21-openjdk!/jdk.unsupported.desktop:/usr/lib/jvm/java-21-openjdk!/jdk.xml.dom:/usr/lib/jvm/java-21-openjdk!/jdk.zipfs:/home/masaya/.m2/repository/com/thoughtworks/gauge/gauge-java/0.10.3/gauge-java-0.10.3.jar:/home/masaya/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/home/masaya/.m2/repository/net/bytebuddy/byte-buddy/1.12.21/byte-buddy-1.12.21.jar:/home/masaya/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar:/home/masaya/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/home/masaya/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/masaya/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/home/masaya/.m2/repository/com/github/javaparser/javaparser-core/3.25.6/javaparser-core-3.25.6.jar:/home/masaya/.m2/repository/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar:/home/masaya/.m2/repository/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar:/home/masaya/.m2/repository/org/json/json/20231013/json-20231013.jar:/home/masaya/.m2/repository/com/google/protobuf/protobuf-java/3.25.0/protobuf-java-3.25.0.jar:/home/masaya/.m2/repository/com/google/guava/guava/32.1.3-jre/guava-32.1.3-jre.jar:/home/masaya/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/masaya/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/masaya/.m2/repository/org/checkerframework/checker-qual/3.37.0/checker-qual-3.37.0.jar:/home/masaya/.m2/repository/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1.jar:/home/masaya/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/home/masaya/.m2/repository/io/grpc/grpc-api/1.59.0/grpc-api-1.59.0.jar:/home/masaya/.m2/repository/io/grpc/grpc-netty-shaded/1.59.0/grpc-netty-shaded-1.59.0.jar:/home/masaya/.m2/repository/io/perfmark/perfmark-api/0.26.0/perfmark-api-0.26.0.jar:/home/masaya/.m2/repository/io/grpc/grpc-core/1.59.0/grpc-core-1.59.0.jar:/home/masaya/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/home/masaya/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/home/masaya/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.23/animal-sniffer-annotations-1.23.jar:/home/masaya/.m2/repository/io/grpc/grpc-context/1.59.0/grpc-context-1.59.0.jar:/home/masaya/.m2/repository/io/grpc/grpc-util/1.59.0/grpc-util-1.59.0.jar:/home/masaya/.m2/repository/io/grpc/grpc-protobuf/1.59.0/grpc-protobuf-1.59.0.jar:/home/masaya/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.22.0/proto-google-common-protos-2.22.0.jar:/home/masaya/.m2/repository/io/grpc/grpc-protobuf-lite/1.59.0/grpc-protobuf-lite-1.59.0.jar:/home/masaya/.m2/repository/io/grpc/grpc-stub/1.59.0/grpc-stub-1.59.0.jar:/home/masaya/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-java/4.18.1/selenium-java-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-api/4.18.1/selenium-api-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.18.1/selenium-chrome-driver-4.18.1.jar:/home/masaya/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.18.1/selenium-chromium-driver-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-json/4.18.1/selenium-json-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.18.1/selenium-manager-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v120/4.18.1/selenium-devtools-v120-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v121/4.18.1/selenium-devtools-v121-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v122/4.18.1/selenium-devtools-v122-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.18.1/selenium-devtools-v85-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.18.1/selenium-edge-driver-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.18.1/selenium-firefox-driver-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-http/4.18.1/selenium-http-4.18.1.jar:/home/masaya/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.18.1/selenium-ie-driver-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.18.1/selenium-remote-driver-4.18.1.jar:/home/masaya/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.23.1-alpha/opentelemetry-semconv-1.23.1-alpha.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-api/1.35.0/opentelemetry-api-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-context/1.35.0/opentelemetry-context-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.35.0/opentelemetry-exporter-logging-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.35.0/opentelemetry-sdk-common-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.35.0/opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.35.0/opentelemetry-sdk-extension-autoconfigure-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.35.0-alpha/opentelemetry-api-events-1.35.0-alpha.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.35.0/opentelemetry-sdk-trace-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.35.0-alpha/opentelemetry-extension-incubator-1.35.0-alpha.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.35.0/opentelemetry-sdk-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.35.0/opentelemetry-sdk-metrics-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.35.0/opentelemetry-sdk-logs-1.35.0.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-os/4.18.1/selenium-os-4.18.1.jar:/home/masaya/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.18.1/selenium-safari-driver-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-support/4.18.1/selenium-support-4.18.1.jar:/home/masaya/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.9.22/kotlin-stdlib-jdk8-1.9.22.jar:/home/masaya/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.9.22/kotlin-stdlib-1.9.22.jar:/home/masaya/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/home/masaya/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.9.22/kotlin-stdlib-jdk7-1.9.22.jar
+29-02-2024 00:11:01.069 [java] [DEBUG] found java executable in /home/masaya/.asdf/installs/java/openjdk-11/bin/java
+29-02-2024 00:11:01.069 [java] [DEBUG] running - /home/masaya/.asdf/installs/java/openjdk-11/bin/java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+29-02-2024 00:11:01.070 [java] [DEBUG] stdout/stderr is logged to logs/13691-java.out
+29-02-2024 00:11:01.075 [java] [ERROR] Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+29-02-2024 00:11:01.188 [java] [DEBUG] multithreading is set to false
+29-02-2024 00:11:01.195 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+29-02-2024 00:11:01.253 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+29-02-2024 00:11:01.253 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+29-02-2024 00:11:01.253 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+29-02-2024 00:11:01.935 [java] [DEBUG] gauge-java took 708milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+29-02-2024 00:11:01.939 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 708
+29-02-2024 00:11:01.939 [java] [DEBUG] starting gRPC server...
+29-02-2024 00:11:02.089 [java] [DEBUG] started gRPC server on port 33107
+29-02-2024 00:11:02.090 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 33107
+29-02-2024 00:11:02.188 [Gauge] [DEBUG] Successfully made the connection with runner with port: 33107
+29-02-2024 00:11:02.188 [Gauge] [DEBUG] Validation started.
+29-02-2024 00:11:02.545 [java] [DEBUG] Scanning packages for steps
+29-02-2024 00:11:02.550 [java] [DEBUG] Scanning packages for hooks
+29-02-2024 00:11:02.555 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+29-02-2024 00:11:02.893 [Gauge] [ERROR] [ValidationError] /home/masaya/source/game-todo/e2e/specs/display_screen.spec:5 Step implementation not found => 'Navigate to the application URL'
+29-02-2024 00:11:02.893 [Gauge] [ERROR] [ValidationError] /home/masaya/source/game-todo/e2e/specs/display_screen.spec:6 Step implementation not found => 'Verify the header is displayed'
+29-02-2024 00:11:02.893 [Gauge] [ERROR] [ValidationError] /home/masaya/source/game-todo/e2e/specs/display_screen.spec:7 Step implementation not found => 'Verify the todo list title is displayed'
+29-02-2024 00:11:02.893 [Gauge] [DEBUG] Run started
+29-02-2024 00:11:02.893 [Gauge] [DEBUG] Starting Html Report plugin
+29-02-2024 00:11:02.916 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 35013
+29-02-2024 00:11:02.917 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 35013
+29-02-2024 00:11:02.917 [Gauge] [DEBUG] Initialising suite data store.
+29-02-2024 00:11:02.943 [html-report] [DEBUG] Transformed SuiteResult to report structure
+29-02-2024 00:11:02.954 [html-report] [INFO] Successfully generated html-report to => /home/masaya/source/game-todo/e2e/reports/html-report/index.html
+29-02-2024 00:11:02.955 [html-report] [DEBUG] Done generating HTML report using theme from /home/masaya/.gauge/plugins/html-report/4.3.0/themes/default
+29-02-2024 00:11:02.955 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+29-02-2024 00:11:02.957 [java] [DEBUG] Killing Java runner...
+29-02-2024 00:11:02.958 [java] [DEBUG] Stopping execution pool...
+29-02-2024 00:11:02.958 [java] [DEBUG] Shutting down grpc server...
+29-02-2024 00:11:02.961 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	1 skipped
+29-02-2024 00:11:02.961 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	1 skipped
+29-02-2024 00:11:02.961 [Gauge] [INFO] 
+Total time taken: 49ms
+29-02-2024 00:14:04.253 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/masaya/source/game-todo/e2e/.gauge/screenshots
+29-02-2024 00:14:04.253 [Gauge] [DEBUG] Plugin java is already installed.
+29-02-2024 00:14:04.253 [Gauge] [DEBUG] Plugin html-report is already installed.
+29-02-2024 00:14:04.253 [Gauge] [DEBUG] Parsing started.
+29-02-2024 00:14:04.253 [Gauge] [DEBUG] Started concepts parsing.
+29-02-2024 00:14:04.254 [Gauge] [DEBUG] 0 concepts parsing completed.
+29-02-2024 00:14:04.254 [Gauge] [DEBUG] Started specifications parsing.
+29-02-2024 00:14:04.254 [Gauge] [DEBUG] 1 specifications parsing completed.
+29-02-2024 00:14:04.254 [Gauge] [DEBUG] Parsing completed.
+29-02-2024 00:14:04.257 [java] [DEBUG] ***** Printing Properties/Env Values *****
+29-02-2024 00:14:04.258 [java] [DEBUG] PATH: /home/masaya/.asdf/installs/gauge/1.5.4/bin:/home/masaya/.asdf/shims:/home/masaya/.asdf/shims:/home/masaya/.asdf/shims:/home/masaya/.asdf/bin:/home/masaya/.bun/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/masaya/.gauge/plugins/screenshot/0.1.0
+29-02-2024 00:14:04.258 [java] [DEBUG] JAVA_HOME: /home/masaya/.asdf/installs/java/openjdk-11
+29-02-2024 00:14:04.258 [java] [DEBUG] gauge_project_root: 
+29-02-2024 00:14:04.258 [java] [DEBUG] gauge_parallel_streams_count: 
+29-02-2024 00:14:04.258 [java] [DEBUG] gauge_reports_dir: reports
+29-02-2024 00:14:04.258 [java] [DEBUG] overwrite_reports: true
+29-02-2024 00:14:04.258 [java] [DEBUG] logs_directory: logs
+29-02-2024 00:14:04.258 [java] [DEBUG] enable_multithreading: 
+29-02-2024 00:14:04.258 [java] [DEBUG] gauge_specs_dir: specs
+29-02-2024 00:14:04.258 [java] [DEBUG] csv_delimiter: ,
+29-02-2024 00:14:04.258 [java] [DEBUG] gauge_java_home: 
+29-02-2024 00:14:04.258 [java] [DEBUG] gauge_custom_build_path: 
+29-02-2024 00:14:04.258 [java] [DEBUG] gauge_additional_libs: 
+29-02-2024 00:14:04.258 [java] [DEBUG] gauge_jvm_args: 
+29-02-2024 00:14:04.258 [java] [DEBUG] gauge_custom_compile_dir: 
+29-02-2024 00:14:04.258 [java] [DEBUG] gauge_clear_state_level: 
+29-02-2024 00:14:04.258 [java] [DEBUG] ***** END *****
+29-02-2024 00:14:04.298 [java] [ERROR] Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+29-02-2024 00:14:05.293 [Gauge] [DEBUG] Checking updates...
+29-02-2024 00:14:05.293 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=linux&a=amd64
+29-02-2024 00:14:06.310 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=linux&a=amd64
+29-02-2024 00:14:06.704 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=linux&a=amd64
+29-02-2024 00:14:07.036 [java] [DEBUG] classpath set to /usr/lib/jvm/java-21-openjdk!/java.base:/usr/lib/jvm/java-21-openjdk!/java.compiler:/usr/lib/jvm/java-21-openjdk!/java.datatransfer:/usr/lib/jvm/java-21-openjdk!/java.desktop:/usr/lib/jvm/java-21-openjdk!/java.instrument:/usr/lib/jvm/java-21-openjdk!/java.logging:/usr/lib/jvm/java-21-openjdk!/java.management:/usr/lib/jvm/java-21-openjdk!/java.management.rmi:/usr/lib/jvm/java-21-openjdk!/java.naming:/usr/lib/jvm/java-21-openjdk!/java.net.http:/usr/lib/jvm/java-21-openjdk!/java.prefs:/usr/lib/jvm/java-21-openjdk!/java.rmi:/usr/lib/jvm/java-21-openjdk!/java.scripting:/usr/lib/jvm/java-21-openjdk!/java.se:/usr/lib/jvm/java-21-openjdk!/java.security.jgss:/usr/lib/jvm/java-21-openjdk!/java.security.sasl:/usr/lib/jvm/java-21-openjdk!/java.smartcardio:/usr/lib/jvm/java-21-openjdk!/java.sql:/usr/lib/jvm/java-21-openjdk!/java.sql.rowset:/usr/lib/jvm/java-21-openjdk!/java.transaction.xa:/usr/lib/jvm/java-21-openjdk!/java.xml:/usr/lib/jvm/java-21-openjdk!/java.xml.crypto:/usr/lib/jvm/java-21-openjdk!/jdk.accessibility:/usr/lib/jvm/java-21-openjdk!/jdk.attach:/usr/lib/jvm/java-21-openjdk!/jdk.charsets:/usr/lib/jvm/java-21-openjdk!/jdk.compiler:/usr/lib/jvm/java-21-openjdk!/jdk.crypto.cryptoki:/usr/lib/jvm/java-21-openjdk!/jdk.crypto.ec:/usr/lib/jvm/java-21-openjdk!/jdk.dynalink:/usr/lib/jvm/java-21-openjdk!/jdk.editpad:/usr/lib/jvm/java-21-openjdk!/jdk.hotspot.agent:/usr/lib/jvm/java-21-openjdk!/jdk.httpserver:/usr/lib/jvm/java-21-openjdk!/jdk.incubator.vector:/usr/lib/jvm/java-21-openjdk!/jdk.internal.ed:/usr/lib/jvm/java-21-openjdk!/jdk.internal.jvmstat:/usr/lib/jvm/java-21-openjdk!/jdk.internal.le:/usr/lib/jvm/java-21-openjdk!/jdk.internal.opt:/usr/lib/jvm/java-21-openjdk!/jdk.internal.vm.ci:/usr/lib/jvm/java-21-openjdk!/jdk.internal.vm.compiler:/usr/lib/jvm/java-21-openjdk!/jdk.internal.vm.compiler.management:/usr/lib/jvm/java-21-openjdk!/jdk.jartool:/usr/lib/jvm/java-21-openjdk!/jdk.javadoc:/usr/lib/jvm/java-21-openjdk!/jdk.jcmd:/usr/lib/jvm/java-21-openjdk!/jdk.jconsole:/usr/lib/jvm/java-21-openjdk!/jdk.jdeps:/usr/lib/jvm/java-21-openjdk!/jdk.jdi:/usr/lib/jvm/java-21-openjdk!/jdk.jdwp.agent:/usr/lib/jvm/java-21-openjdk!/jdk.jfr:/usr/lib/jvm/java-21-openjdk!/jdk.jlink:/usr/lib/jvm/java-21-openjdk!/jdk.jpackage:/usr/lib/jvm/java-21-openjdk!/jdk.jshell:/usr/lib/jvm/java-21-openjdk!/jdk.jsobject:/usr/lib/jvm/java-21-openjdk!/jdk.jstatd:/usr/lib/jvm/java-21-openjdk!/jdk.localedata:/usr/lib/jvm/java-21-openjdk!/jdk.management:/usr/lib/jvm/java-21-openjdk!/jdk.management.agent:/usr/lib/jvm/java-21-openjdk!/jdk.management.jfr:/usr/lib/jvm/java-21-openjdk!/jdk.naming.dns:/usr/lib/jvm/java-21-openjdk!/jdk.naming.rmi:/usr/lib/jvm/java-21-openjdk!/jdk.net:/usr/lib/jvm/java-21-openjdk!/jdk.nio.mapmode:/usr/lib/jvm/java-21-openjdk!/jdk.random:/usr/lib/jvm/java-21-openjdk!/jdk.sctp:/usr/lib/jvm/java-21-openjdk!/jdk.security.auth:/usr/lib/jvm/java-21-openjdk!/jdk.security.jgss:/usr/lib/jvm/java-21-openjdk!/jdk.unsupported:/usr/lib/jvm/java-21-openjdk!/jdk.unsupported.desktop:/usr/lib/jvm/java-21-openjdk!/jdk.xml.dom:/usr/lib/jvm/java-21-openjdk!/jdk.zipfs:/home/masaya/.m2/repository/com/thoughtworks/gauge/gauge-java/0.10.3/gauge-java-0.10.3.jar:/home/masaya/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/home/masaya/.m2/repository/net/bytebuddy/byte-buddy/1.12.21/byte-buddy-1.12.21.jar:/home/masaya/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar:/home/masaya/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/home/masaya/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/masaya/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/home/masaya/.m2/repository/com/github/javaparser/javaparser-core/3.25.6/javaparser-core-3.25.6.jar:/home/masaya/.m2/repository/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar:/home/masaya/.m2/repository/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar:/home/masaya/.m2/repository/org/json/json/20231013/json-20231013.jar:/home/masaya/.m2/repository/com/google/protobuf/protobuf-java/3.25.0/protobuf-java-3.25.0.jar:/home/masaya/.m2/repository/com/google/guava/guava/32.1.3-jre/guava-32.1.3-jre.jar:/home/masaya/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/masaya/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/masaya/.m2/repository/org/checkerframework/checker-qual/3.37.0/checker-qual-3.37.0.jar:/home/masaya/.m2/repository/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1.jar:/home/masaya/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/home/masaya/.m2/repository/io/grpc/grpc-api/1.59.0/grpc-api-1.59.0.jar:/home/masaya/.m2/repository/io/grpc/grpc-netty-shaded/1.59.0/grpc-netty-shaded-1.59.0.jar:/home/masaya/.m2/repository/io/perfmark/perfmark-api/0.26.0/perfmark-api-0.26.0.jar:/home/masaya/.m2/repository/io/grpc/grpc-core/1.59.0/grpc-core-1.59.0.jar:/home/masaya/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/home/masaya/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/home/masaya/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.23/animal-sniffer-annotations-1.23.jar:/home/masaya/.m2/repository/io/grpc/grpc-context/1.59.0/grpc-context-1.59.0.jar:/home/masaya/.m2/repository/io/grpc/grpc-util/1.59.0/grpc-util-1.59.0.jar:/home/masaya/.m2/repository/io/grpc/grpc-protobuf/1.59.0/grpc-protobuf-1.59.0.jar:/home/masaya/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.22.0/proto-google-common-protos-2.22.0.jar:/home/masaya/.m2/repository/io/grpc/grpc-protobuf-lite/1.59.0/grpc-protobuf-lite-1.59.0.jar:/home/masaya/.m2/repository/io/grpc/grpc-stub/1.59.0/grpc-stub-1.59.0.jar:/home/masaya/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-java/4.18.1/selenium-java-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-api/4.18.1/selenium-api-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.18.1/selenium-chrome-driver-4.18.1.jar:/home/masaya/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.18.1/selenium-chromium-driver-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-json/4.18.1/selenium-json-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.18.1/selenium-manager-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v120/4.18.1/selenium-devtools-v120-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v121/4.18.1/selenium-devtools-v121-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v122/4.18.1/selenium-devtools-v122-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.18.1/selenium-devtools-v85-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.18.1/selenium-edge-driver-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.18.1/selenium-firefox-driver-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-http/4.18.1/selenium-http-4.18.1.jar:/home/masaya/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.18.1/selenium-ie-driver-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.18.1/selenium-remote-driver-4.18.1.jar:/home/masaya/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.23.1-alpha/opentelemetry-semconv-1.23.1-alpha.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-api/1.35.0/opentelemetry-api-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-context/1.35.0/opentelemetry-context-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.35.0/opentelemetry-exporter-logging-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.35.0/opentelemetry-sdk-common-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.35.0/opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.35.0/opentelemetry-sdk-extension-autoconfigure-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.35.0-alpha/opentelemetry-api-events-1.35.0-alpha.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.35.0/opentelemetry-sdk-trace-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.35.0-alpha/opentelemetry-extension-incubator-1.35.0-alpha.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.35.0/opentelemetry-sdk-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.35.0/opentelemetry-sdk-metrics-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.35.0/opentelemetry-sdk-logs-1.35.0.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-os/4.18.1/selenium-os-4.18.1.jar:/home/masaya/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.18.1/selenium-safari-driver-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-support/4.18.1/selenium-support-4.18.1.jar:/home/masaya/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.9.22/kotlin-stdlib-jdk8-1.9.22.jar:/home/masaya/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.9.22/kotlin-stdlib-1.9.22.jar:/home/masaya/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/home/masaya/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.9.22/kotlin-stdlib-jdk7-1.9.22.jar
+29-02-2024 00:14:07.040 [java] [DEBUG] found java executable in /home/masaya/.asdf/installs/java/openjdk-11/bin/java
+29-02-2024 00:14:07.040 [java] [DEBUG] running - /home/masaya/.asdf/installs/java/openjdk-11/bin/java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+29-02-2024 00:14:07.040 [java] [DEBUG] stdout/stderr is logged to logs/14263-java.out
+29-02-2024 00:14:07.046 [java] [ERROR] Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+29-02-2024 00:14:07.211 [java] [DEBUG] multithreading is set to false
+29-02-2024 00:14:07.222 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+29-02-2024 00:14:07.318 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+29-02-2024 00:14:07.318 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+29-02-2024 00:14:07.318 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+29-02-2024 00:14:08.218 [java] [DEBUG] gauge-java took 977milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+29-02-2024 00:14:08.231 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 977
+29-02-2024 00:14:08.231 [java] [DEBUG] starting gRPC server...
+29-02-2024 00:14:08.437 [java] [DEBUG] started gRPC server on port 39059
+29-02-2024 00:14:08.438 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 39059
+29-02-2024 00:14:08.710 [Gauge] [DEBUG] Successfully made the connection with runner with port: 39059
+29-02-2024 00:14:08.710 [Gauge] [DEBUG] Validation started.
+29-02-2024 00:14:09.443 [java] [DEBUG] Scanning packages for steps
+29-02-2024 00:14:09.448 [java] [DEBUG] Scanning packages for hooks
+29-02-2024 00:14:09.455 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+29-02-2024 00:14:09.986 [Gauge] [ERROR] [ValidationError] /home/masaya/source/game-todo/e2e/specs/display_screen.spec:5 Step implementation not found => 'Navigate to the application URL'
+29-02-2024 00:14:09.986 [Gauge] [ERROR] [ValidationError] /home/masaya/source/game-todo/e2e/specs/display_screen.spec:6 Step implementation not found => 'Verify the header is displayed'
+29-02-2024 00:14:09.986 [Gauge] [ERROR] [ValidationError] /home/masaya/source/game-todo/e2e/specs/display_screen.spec:7 Step implementation not found => 'Verify the todo list title is displayed'
+29-02-2024 00:14:09.986 [Gauge] [DEBUG] Run started
+29-02-2024 00:14:09.986 [Gauge] [DEBUG] Starting Html Report plugin
+29-02-2024 00:14:09.991 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+29-02-2024 00:14:09.991 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 37723
+29-02-2024 00:14:09.992 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 37723
+29-02-2024 00:14:09.992 [Gauge] [DEBUG] Initialising suite data store.
+29-02-2024 00:14:10.029 [html-report] [DEBUG] Transformed SuiteResult to report structure
+29-02-2024 00:14:10.038 [html-report] [INFO] Successfully generated html-report to => /home/masaya/source/game-todo/e2e/reports/html-report/index.html
+29-02-2024 00:14:10.038 [html-report] [DEBUG] Done generating HTML report using theme from /home/masaya/.gauge/plugins/html-report/4.3.0/themes/default
+29-02-2024 00:14:10.038 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+29-02-2024 00:14:10.041 [java] [DEBUG] Killing Java runner...
+29-02-2024 00:14:10.042 [java] [DEBUG] Stopping execution pool...
+29-02-2024 00:14:10.042 [java] [DEBUG] Shutting down grpc server...
+29-02-2024 00:14:10.046 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	1 skipped
+29-02-2024 00:14:10.046 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	1 skipped
+29-02-2024 00:14:10.046 [Gauge] [INFO] 
+Total time taken: 42ms
+29-02-2024 00:14:10.046 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+29-02-2024 00:16:41.593 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/masaya/source/game-todo/e2e/.gauge/screenshots
+29-02-2024 00:16:41.594 [Gauge] [DEBUG] Plugin java is already installed.
+29-02-2024 00:16:41.594 [Gauge] [DEBUG] Plugin html-report is already installed.
+29-02-2024 00:16:41.594 [Gauge] [DEBUG] Parsing started.
+29-02-2024 00:16:41.594 [Gauge] [DEBUG] Started concepts parsing.
+29-02-2024 00:16:41.594 [Gauge] [DEBUG] 0 concepts parsing completed.
+29-02-2024 00:16:41.594 [Gauge] [DEBUG] Started specifications parsing.
+29-02-2024 00:16:41.595 [Gauge] [DEBUG] 1 specifications parsing completed.
+29-02-2024 00:16:41.595 [Gauge] [DEBUG] Parsing completed.
+29-02-2024 00:16:41.597 [java] [DEBUG] ***** Printing Properties/Env Values *****
+29-02-2024 00:16:41.597 [java] [DEBUG] PATH: /home/masaya/.asdf/installs/gauge/1.5.4/bin:/home/masaya/.asdf/shims:/home/masaya/.asdf/shims:/home/masaya/.asdf/shims:/home/masaya/.asdf/bin:/home/masaya/.bun/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/masaya/.gauge/plugins/screenshot/0.1.0
+29-02-2024 00:16:41.597 [java] [DEBUG] JAVA_HOME: /home/masaya/.asdf/installs/java/openjdk-11
+29-02-2024 00:16:41.597 [java] [DEBUG] gauge_project_root: 
+29-02-2024 00:16:41.597 [java] [DEBUG] gauge_parallel_streams_count: 
+29-02-2024 00:16:41.598 [java] [DEBUG] gauge_reports_dir: reports
+29-02-2024 00:16:41.598 [java] [DEBUG] overwrite_reports: true
+29-02-2024 00:16:41.598 [java] [DEBUG] logs_directory: logs
+29-02-2024 00:16:41.598 [java] [DEBUG] enable_multithreading: 
+29-02-2024 00:16:41.598 [java] [DEBUG] gauge_specs_dir: specs
+29-02-2024 00:16:41.598 [java] [DEBUG] csv_delimiter: ,
+29-02-2024 00:16:41.598 [java] [DEBUG] gauge_java_home: 
+29-02-2024 00:16:41.598 [java] [DEBUG] gauge_custom_build_path: 
+29-02-2024 00:16:41.598 [java] [DEBUG] gauge_additional_libs: 
+29-02-2024 00:16:41.598 [java] [DEBUG] gauge_jvm_args: 
+29-02-2024 00:16:41.598 [java] [DEBUG] gauge_custom_compile_dir: 
+29-02-2024 00:16:41.598 [java] [DEBUG] gauge_clear_state_level: 
+29-02-2024 00:16:41.598 [java] [DEBUG] ***** END *****
+29-02-2024 00:16:41.640 [java] [ERROR] Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+29-02-2024 00:16:42.742 [Gauge] [DEBUG] Checking updates...
+29-02-2024 00:16:42.742 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=linux&a=amd64
+29-02-2024 00:16:43.364 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=linux&a=amd64
+29-02-2024 00:16:43.766 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=linux&a=amd64
+29-02-2024 00:16:44.369 [java] [DEBUG] classpath set to /usr/lib/jvm/java-21-openjdk!/java.base:/usr/lib/jvm/java-21-openjdk!/java.compiler:/usr/lib/jvm/java-21-openjdk!/java.datatransfer:/usr/lib/jvm/java-21-openjdk!/java.desktop:/usr/lib/jvm/java-21-openjdk!/java.instrument:/usr/lib/jvm/java-21-openjdk!/java.logging:/usr/lib/jvm/java-21-openjdk!/java.management:/usr/lib/jvm/java-21-openjdk!/java.management.rmi:/usr/lib/jvm/java-21-openjdk!/java.naming:/usr/lib/jvm/java-21-openjdk!/java.net.http:/usr/lib/jvm/java-21-openjdk!/java.prefs:/usr/lib/jvm/java-21-openjdk!/java.rmi:/usr/lib/jvm/java-21-openjdk!/java.scripting:/usr/lib/jvm/java-21-openjdk!/java.se:/usr/lib/jvm/java-21-openjdk!/java.security.jgss:/usr/lib/jvm/java-21-openjdk!/java.security.sasl:/usr/lib/jvm/java-21-openjdk!/java.smartcardio:/usr/lib/jvm/java-21-openjdk!/java.sql:/usr/lib/jvm/java-21-openjdk!/java.sql.rowset:/usr/lib/jvm/java-21-openjdk!/java.transaction.xa:/usr/lib/jvm/java-21-openjdk!/java.xml:/usr/lib/jvm/java-21-openjdk!/java.xml.crypto:/usr/lib/jvm/java-21-openjdk!/jdk.accessibility:/usr/lib/jvm/java-21-openjdk!/jdk.attach:/usr/lib/jvm/java-21-openjdk!/jdk.charsets:/usr/lib/jvm/java-21-openjdk!/jdk.compiler:/usr/lib/jvm/java-21-openjdk!/jdk.crypto.cryptoki:/usr/lib/jvm/java-21-openjdk!/jdk.crypto.ec:/usr/lib/jvm/java-21-openjdk!/jdk.dynalink:/usr/lib/jvm/java-21-openjdk!/jdk.editpad:/usr/lib/jvm/java-21-openjdk!/jdk.hotspot.agent:/usr/lib/jvm/java-21-openjdk!/jdk.httpserver:/usr/lib/jvm/java-21-openjdk!/jdk.incubator.vector:/usr/lib/jvm/java-21-openjdk!/jdk.internal.ed:/usr/lib/jvm/java-21-openjdk!/jdk.internal.jvmstat:/usr/lib/jvm/java-21-openjdk!/jdk.internal.le:/usr/lib/jvm/java-21-openjdk!/jdk.internal.opt:/usr/lib/jvm/java-21-openjdk!/jdk.internal.vm.ci:/usr/lib/jvm/java-21-openjdk!/jdk.internal.vm.compiler:/usr/lib/jvm/java-21-openjdk!/jdk.internal.vm.compiler.management:/usr/lib/jvm/java-21-openjdk!/jdk.jartool:/usr/lib/jvm/java-21-openjdk!/jdk.javadoc:/usr/lib/jvm/java-21-openjdk!/jdk.jcmd:/usr/lib/jvm/java-21-openjdk!/jdk.jconsole:/usr/lib/jvm/java-21-openjdk!/jdk.jdeps:/usr/lib/jvm/java-21-openjdk!/jdk.jdi:/usr/lib/jvm/java-21-openjdk!/jdk.jdwp.agent:/usr/lib/jvm/java-21-openjdk!/jdk.jfr:/usr/lib/jvm/java-21-openjdk!/jdk.jlink:/usr/lib/jvm/java-21-openjdk!/jdk.jpackage:/usr/lib/jvm/java-21-openjdk!/jdk.jshell:/usr/lib/jvm/java-21-openjdk!/jdk.jsobject:/usr/lib/jvm/java-21-openjdk!/jdk.jstatd:/usr/lib/jvm/java-21-openjdk!/jdk.localedata:/usr/lib/jvm/java-21-openjdk!/jdk.management:/usr/lib/jvm/java-21-openjdk!/jdk.management.agent:/usr/lib/jvm/java-21-openjdk!/jdk.management.jfr:/usr/lib/jvm/java-21-openjdk!/jdk.naming.dns:/usr/lib/jvm/java-21-openjdk!/jdk.naming.rmi:/usr/lib/jvm/java-21-openjdk!/jdk.net:/usr/lib/jvm/java-21-openjdk!/jdk.nio.mapmode:/usr/lib/jvm/java-21-openjdk!/jdk.random:/usr/lib/jvm/java-21-openjdk!/jdk.sctp:/usr/lib/jvm/java-21-openjdk!/jdk.security.auth:/usr/lib/jvm/java-21-openjdk!/jdk.security.jgss:/usr/lib/jvm/java-21-openjdk!/jdk.unsupported:/usr/lib/jvm/java-21-openjdk!/jdk.unsupported.desktop:/usr/lib/jvm/java-21-openjdk!/jdk.xml.dom:/usr/lib/jvm/java-21-openjdk!/jdk.zipfs:/home/masaya/.m2/repository/com/thoughtworks/gauge/gauge-java/0.10.3/gauge-java-0.10.3.jar:/home/masaya/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/home/masaya/.m2/repository/net/bytebuddy/byte-buddy/1.12.21/byte-buddy-1.12.21.jar:/home/masaya/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar:/home/masaya/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/home/masaya/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/masaya/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/home/masaya/.m2/repository/com/github/javaparser/javaparser-core/3.25.6/javaparser-core-3.25.6.jar:/home/masaya/.m2/repository/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar:/home/masaya/.m2/repository/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar:/home/masaya/.m2/repository/org/json/json/20231013/json-20231013.jar:/home/masaya/.m2/repository/com/google/protobuf/protobuf-java/3.25.0/protobuf-java-3.25.0.jar:/home/masaya/.m2/repository/com/google/guava/guava/32.1.3-jre/guava-32.1.3-jre.jar:/home/masaya/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/masaya/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/masaya/.m2/repository/org/checkerframework/checker-qual/3.37.0/checker-qual-3.37.0.jar:/home/masaya/.m2/repository/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1.jar:/home/masaya/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/home/masaya/.m2/repository/io/grpc/grpc-api/1.59.0/grpc-api-1.59.0.jar:/home/masaya/.m2/repository/io/grpc/grpc-netty-shaded/1.59.0/grpc-netty-shaded-1.59.0.jar:/home/masaya/.m2/repository/io/perfmark/perfmark-api/0.26.0/perfmark-api-0.26.0.jar:/home/masaya/.m2/repository/io/grpc/grpc-core/1.59.0/grpc-core-1.59.0.jar:/home/masaya/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/home/masaya/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/home/masaya/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.23/animal-sniffer-annotations-1.23.jar:/home/masaya/.m2/repository/io/grpc/grpc-context/1.59.0/grpc-context-1.59.0.jar:/home/masaya/.m2/repository/io/grpc/grpc-util/1.59.0/grpc-util-1.59.0.jar:/home/masaya/.m2/repository/io/grpc/grpc-protobuf/1.59.0/grpc-protobuf-1.59.0.jar:/home/masaya/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.22.0/proto-google-common-protos-2.22.0.jar:/home/masaya/.m2/repository/io/grpc/grpc-protobuf-lite/1.59.0/grpc-protobuf-lite-1.59.0.jar:/home/masaya/.m2/repository/io/grpc/grpc-stub/1.59.0/grpc-stub-1.59.0.jar:/home/masaya/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-java/4.18.1/selenium-java-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-api/4.18.1/selenium-api-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.18.1/selenium-chrome-driver-4.18.1.jar:/home/masaya/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.18.1/selenium-chromium-driver-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-json/4.18.1/selenium-json-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.18.1/selenium-manager-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v120/4.18.1/selenium-devtools-v120-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v121/4.18.1/selenium-devtools-v121-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v122/4.18.1/selenium-devtools-v122-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.18.1/selenium-devtools-v85-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.18.1/selenium-edge-driver-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.18.1/selenium-firefox-driver-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-http/4.18.1/selenium-http-4.18.1.jar:/home/masaya/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.18.1/selenium-ie-driver-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.18.1/selenium-remote-driver-4.18.1.jar:/home/masaya/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.23.1-alpha/opentelemetry-semconv-1.23.1-alpha.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-api/1.35.0/opentelemetry-api-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-context/1.35.0/opentelemetry-context-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.35.0/opentelemetry-exporter-logging-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.35.0/opentelemetry-sdk-common-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.35.0/opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.35.0/opentelemetry-sdk-extension-autoconfigure-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.35.0-alpha/opentelemetry-api-events-1.35.0-alpha.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.35.0/opentelemetry-sdk-trace-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.35.0-alpha/opentelemetry-extension-incubator-1.35.0-alpha.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.35.0/opentelemetry-sdk-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.35.0/opentelemetry-sdk-metrics-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.35.0/opentelemetry-sdk-logs-1.35.0.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-os/4.18.1/selenium-os-4.18.1.jar:/home/masaya/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.18.1/selenium-safari-driver-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-support/4.18.1/selenium-support-4.18.1.jar:/home/masaya/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.9.22/kotlin-stdlib-jdk8-1.9.22.jar:/home/masaya/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.9.22/kotlin-stdlib-1.9.22.jar:/home/masaya/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/home/masaya/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.9.22/kotlin-stdlib-jdk7-1.9.22.jar
+29-02-2024 00:16:44.373 [java] [DEBUG] found java executable in /home/masaya/.asdf/installs/java/openjdk-11/bin/java
+29-02-2024 00:16:44.373 [java] [DEBUG] running - /home/masaya/.asdf/installs/java/openjdk-11/bin/java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+29-02-2024 00:16:44.374 [java] [DEBUG] stdout/stderr is logged to logs/14951-java.out
+29-02-2024 00:16:44.379 [java] [ERROR] Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+29-02-2024 00:16:44.540 [java] [DEBUG] multithreading is set to false
+29-02-2024 00:16:44.550 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+29-02-2024 00:16:44.645 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+29-02-2024 00:16:44.645 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+29-02-2024 00:16:44.645 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+29-02-2024 00:16:45.428 [java] [DEBUG] gauge-java took 867milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+29-02-2024 00:16:45.430 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 867
+29-02-2024 00:16:45.430 [java] [DEBUG] starting gRPC server...
+29-02-2024 00:16:45.645 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 37793
+29-02-2024 00:16:45.829 [Gauge] [DEBUG] Successfully made the connection with runner with port: 37793
+29-02-2024 00:16:45.829 [Gauge] [DEBUG] Validation started.
+29-02-2024 00:16:46.291 [java] [DEBUG] Scanning packages for steps
+29-02-2024 00:16:46.298 [java] [DEBUG] Scanning packages for hooks
+29-02-2024 00:16:46.304 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+29-02-2024 00:16:46.697 [Gauge] [ERROR] [ValidationError] /home/masaya/source/game-todo/e2e/specs/display_screen.spec:5 Step implementation not found => 'Navigate to the application URL'
+29-02-2024 00:16:46.697 [Gauge] [ERROR] [ValidationError] /home/masaya/source/game-todo/e2e/specs/display_screen.spec:6 Step implementation not found => 'Verify the header is displayed'
+29-02-2024 00:16:46.697 [Gauge] [ERROR] [ValidationError] /home/masaya/source/game-todo/e2e/specs/display_screen.spec:7 Step implementation not found => 'Verify the todo list title is displayed'
+29-02-2024 00:16:46.697 [Gauge] [DEBUG] Run started
+29-02-2024 00:16:46.698 [Gauge] [DEBUG] Starting Html Report plugin
+29-02-2024 00:16:46.704 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+29-02-2024 00:16:46.704 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 43299
+29-02-2024 00:16:46.705 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 43299
+29-02-2024 00:16:46.705 [Gauge] [DEBUG] Initialising suite data store.
+29-02-2024 00:16:46.736 [html-report] [DEBUG] Transformed SuiteResult to report structure
+29-02-2024 00:16:46.747 [html-report] [INFO] Successfully generated html-report to => /home/masaya/source/game-todo/e2e/reports/html-report/index.html
+29-02-2024 00:16:46.747 [html-report] [DEBUG] Done generating HTML report using theme from /home/masaya/.gauge/plugins/html-report/4.3.0/themes/default
+29-02-2024 00:16:46.747 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+29-02-2024 00:16:46.750 [java] [DEBUG] Killing Java runner...
+29-02-2024 00:16:46.751 [java] [DEBUG] Stopping execution pool...
+29-02-2024 00:16:46.751 [java] [DEBUG] Shutting down grpc server...
+29-02-2024 00:16:46.756 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	1 skipped
+29-02-2024 00:16:46.756 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	1 skipped
+29-02-2024 00:16:46.756 [Gauge] [INFO] 
+Total time taken: 37ms
+29-02-2024 00:16:46.756 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+29-02-2024 00:30:43.708 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/masaya/source/game-todo/e2e/.gauge/screenshots
+29-02-2024 00:30:43.708 [Gauge] [DEBUG] Plugin java is already installed.
+29-02-2024 00:30:43.708 [Gauge] [DEBUG] Plugin html-report is already installed.
+29-02-2024 00:30:43.708 [Gauge] [DEBUG] Parsing started.
+29-02-2024 00:30:43.708 [Gauge] [DEBUG] Started concepts parsing.
+29-02-2024 00:30:43.709 [Gauge] [DEBUG] 0 concepts parsing completed.
+29-02-2024 00:30:43.709 [Gauge] [DEBUG] Started specifications parsing.
+29-02-2024 00:30:43.709 [Gauge] [DEBUG] 1 specifications parsing completed.
+29-02-2024 00:30:43.709 [Gauge] [DEBUG] Parsing completed.
+29-02-2024 00:30:43.712 [java] [DEBUG] ***** Printing Properties/Env Values *****
+29-02-2024 00:30:43.713 [java] [DEBUG] PATH: /home/masaya/.asdf/installs/gauge/1.5.4/bin:/home/masaya/.asdf/shims:/home/masaya/.asdf/shims:/home/masaya/.asdf/shims:/home/masaya/.asdf/bin:/home/masaya/.bun/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/masaya/.gauge/plugins/screenshot/0.1.0
+29-02-2024 00:30:43.713 [java] [DEBUG] JAVA_HOME: /home/masaya/.asdf/installs/java/openjdk-11
+29-02-2024 00:30:43.713 [java] [DEBUG] gauge_project_root: 
+29-02-2024 00:30:43.713 [java] [DEBUG] gauge_parallel_streams_count: 
+29-02-2024 00:30:43.713 [java] [DEBUG] gauge_reports_dir: reports
+29-02-2024 00:30:43.713 [java] [DEBUG] overwrite_reports: true
+29-02-2024 00:30:43.713 [java] [DEBUG] logs_directory: logs
+29-02-2024 00:30:43.713 [java] [DEBUG] enable_multithreading: 
+29-02-2024 00:30:43.713 [java] [DEBUG] gauge_specs_dir: specs
+29-02-2024 00:30:43.713 [java] [DEBUG] csv_delimiter: ,
+29-02-2024 00:30:43.713 [java] [DEBUG] gauge_java_home: 
+29-02-2024 00:30:43.713 [java] [DEBUG] gauge_custom_build_path: 
+29-02-2024 00:30:43.713 [java] [DEBUG] gauge_additional_libs: 
+29-02-2024 00:30:43.713 [java] [DEBUG] gauge_jvm_args: 
+29-02-2024 00:30:43.713 [java] [DEBUG] gauge_custom_compile_dir: 
+29-02-2024 00:30:43.713 [java] [DEBUG] gauge_clear_state_level: 
+29-02-2024 00:30:43.713 [java] [DEBUG] ***** END *****
+29-02-2024 00:30:43.755 [java] [ERROR] Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+29-02-2024 00:30:44.077 [Gauge] [DEBUG] Checking updates...
+29-02-2024 00:30:44.078 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=linux&a=amd64
+29-02-2024 00:30:45.389 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=linux&a=amd64
+29-02-2024 00:30:45.779 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=linux&a=amd64
+29-02-2024 00:30:46.597 [java] [DEBUG] classpath set to /usr/lib/jvm/java-21-openjdk!/java.base:/usr/lib/jvm/java-21-openjdk!/java.compiler:/usr/lib/jvm/java-21-openjdk!/java.datatransfer:/usr/lib/jvm/java-21-openjdk!/java.desktop:/usr/lib/jvm/java-21-openjdk!/java.instrument:/usr/lib/jvm/java-21-openjdk!/java.logging:/usr/lib/jvm/java-21-openjdk!/java.management:/usr/lib/jvm/java-21-openjdk!/java.management.rmi:/usr/lib/jvm/java-21-openjdk!/java.naming:/usr/lib/jvm/java-21-openjdk!/java.net.http:/usr/lib/jvm/java-21-openjdk!/java.prefs:/usr/lib/jvm/java-21-openjdk!/java.rmi:/usr/lib/jvm/java-21-openjdk!/java.scripting:/usr/lib/jvm/java-21-openjdk!/java.se:/usr/lib/jvm/java-21-openjdk!/java.security.jgss:/usr/lib/jvm/java-21-openjdk!/java.security.sasl:/usr/lib/jvm/java-21-openjdk!/java.smartcardio:/usr/lib/jvm/java-21-openjdk!/java.sql:/usr/lib/jvm/java-21-openjdk!/java.sql.rowset:/usr/lib/jvm/java-21-openjdk!/java.transaction.xa:/usr/lib/jvm/java-21-openjdk!/java.xml:/usr/lib/jvm/java-21-openjdk!/java.xml.crypto:/usr/lib/jvm/java-21-openjdk!/jdk.accessibility:/usr/lib/jvm/java-21-openjdk!/jdk.attach:/usr/lib/jvm/java-21-openjdk!/jdk.charsets:/usr/lib/jvm/java-21-openjdk!/jdk.compiler:/usr/lib/jvm/java-21-openjdk!/jdk.crypto.cryptoki:/usr/lib/jvm/java-21-openjdk!/jdk.crypto.ec:/usr/lib/jvm/java-21-openjdk!/jdk.dynalink:/usr/lib/jvm/java-21-openjdk!/jdk.editpad:/usr/lib/jvm/java-21-openjdk!/jdk.hotspot.agent:/usr/lib/jvm/java-21-openjdk!/jdk.httpserver:/usr/lib/jvm/java-21-openjdk!/jdk.incubator.vector:/usr/lib/jvm/java-21-openjdk!/jdk.internal.ed:/usr/lib/jvm/java-21-openjdk!/jdk.internal.jvmstat:/usr/lib/jvm/java-21-openjdk!/jdk.internal.le:/usr/lib/jvm/java-21-openjdk!/jdk.internal.opt:/usr/lib/jvm/java-21-openjdk!/jdk.internal.vm.ci:/usr/lib/jvm/java-21-openjdk!/jdk.internal.vm.compiler:/usr/lib/jvm/java-21-openjdk!/jdk.internal.vm.compiler.management:/usr/lib/jvm/java-21-openjdk!/jdk.jartool:/usr/lib/jvm/java-21-openjdk!/jdk.javadoc:/usr/lib/jvm/java-21-openjdk!/jdk.jcmd:/usr/lib/jvm/java-21-openjdk!/jdk.jconsole:/usr/lib/jvm/java-21-openjdk!/jdk.jdeps:/usr/lib/jvm/java-21-openjdk!/jdk.jdi:/usr/lib/jvm/java-21-openjdk!/jdk.jdwp.agent:/usr/lib/jvm/java-21-openjdk!/jdk.jfr:/usr/lib/jvm/java-21-openjdk!/jdk.jlink:/usr/lib/jvm/java-21-openjdk!/jdk.jpackage:/usr/lib/jvm/java-21-openjdk!/jdk.jshell:/usr/lib/jvm/java-21-openjdk!/jdk.jsobject:/usr/lib/jvm/java-21-openjdk!/jdk.jstatd:/usr/lib/jvm/java-21-openjdk!/jdk.localedata:/usr/lib/jvm/java-21-openjdk!/jdk.management:/usr/lib/jvm/java-21-openjdk!/jdk.management.agent:/usr/lib/jvm/java-21-openjdk!/jdk.management.jfr:/usr/lib/jvm/java-21-openjdk!/jdk.naming.dns:/usr/lib/jvm/java-21-openjdk!/jdk.naming.rmi:/usr/lib/jvm/java-21-openjdk!/jdk.net:/usr/lib/jvm/java-21-openjdk!/jdk.nio.mapmode:/usr/lib/jvm/java-21-openjdk!/jdk.random:/usr/lib/jvm/java-21-openjdk!/jdk.sctp:/usr/lib/jvm/java-21-openjdk!/jdk.security.auth:/usr/lib/jvm/java-21-openjdk!/jdk.security.jgss:/usr/lib/jvm/java-21-openjdk!/jdk.unsupported:/usr/lib/jvm/java-21-openjdk!/jdk.unsupported.desktop:/usr/lib/jvm/java-21-openjdk!/jdk.xml.dom:/usr/lib/jvm/java-21-openjdk!/jdk.zipfs:/home/masaya/.m2/repository/com/thoughtworks/gauge/gauge-java/0.10.3/gauge-java-0.10.3.jar:/home/masaya/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/home/masaya/.m2/repository/net/bytebuddy/byte-buddy/1.12.21/byte-buddy-1.12.21.jar:/home/masaya/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar:/home/masaya/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/home/masaya/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/masaya/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/home/masaya/.m2/repository/com/github/javaparser/javaparser-core/3.25.6/javaparser-core-3.25.6.jar:/home/masaya/.m2/repository/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar:/home/masaya/.m2/repository/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar:/home/masaya/.m2/repository/org/json/json/20231013/json-20231013.jar:/home/masaya/.m2/repository/com/google/protobuf/protobuf-java/3.25.0/protobuf-java-3.25.0.jar:/home/masaya/.m2/repository/com/google/guava/guava/32.1.3-jre/guava-32.1.3-jre.jar:/home/masaya/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/masaya/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/masaya/.m2/repository/org/checkerframework/checker-qual/3.37.0/checker-qual-3.37.0.jar:/home/masaya/.m2/repository/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1.jar:/home/masaya/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/home/masaya/.m2/repository/io/grpc/grpc-api/1.59.0/grpc-api-1.59.0.jar:/home/masaya/.m2/repository/io/grpc/grpc-netty-shaded/1.59.0/grpc-netty-shaded-1.59.0.jar:/home/masaya/.m2/repository/io/perfmark/perfmark-api/0.26.0/perfmark-api-0.26.0.jar:/home/masaya/.m2/repository/io/grpc/grpc-core/1.59.0/grpc-core-1.59.0.jar:/home/masaya/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/home/masaya/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/home/masaya/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.23/animal-sniffer-annotations-1.23.jar:/home/masaya/.m2/repository/io/grpc/grpc-context/1.59.0/grpc-context-1.59.0.jar:/home/masaya/.m2/repository/io/grpc/grpc-util/1.59.0/grpc-util-1.59.0.jar:/home/masaya/.m2/repository/io/grpc/grpc-protobuf/1.59.0/grpc-protobuf-1.59.0.jar:/home/masaya/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.22.0/proto-google-common-protos-2.22.0.jar:/home/masaya/.m2/repository/io/grpc/grpc-protobuf-lite/1.59.0/grpc-protobuf-lite-1.59.0.jar:/home/masaya/.m2/repository/io/grpc/grpc-stub/1.59.0/grpc-stub-1.59.0.jar:/home/masaya/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-java/4.18.1/selenium-java-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-api/4.18.1/selenium-api-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.18.1/selenium-chrome-driver-4.18.1.jar:/home/masaya/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.18.1/selenium-chromium-driver-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-json/4.18.1/selenium-json-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.18.1/selenium-manager-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v120/4.18.1/selenium-devtools-v120-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v121/4.18.1/selenium-devtools-v121-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v122/4.18.1/selenium-devtools-v122-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.18.1/selenium-devtools-v85-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.18.1/selenium-edge-driver-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.18.1/selenium-firefox-driver-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-http/4.18.1/selenium-http-4.18.1.jar:/home/masaya/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.18.1/selenium-ie-driver-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.18.1/selenium-remote-driver-4.18.1.jar:/home/masaya/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.23.1-alpha/opentelemetry-semconv-1.23.1-alpha.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-api/1.35.0/opentelemetry-api-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-context/1.35.0/opentelemetry-context-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.35.0/opentelemetry-exporter-logging-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.35.0/opentelemetry-sdk-common-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.35.0/opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.35.0/opentelemetry-sdk-extension-autoconfigure-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.35.0-alpha/opentelemetry-api-events-1.35.0-alpha.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.35.0/opentelemetry-sdk-trace-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.35.0-alpha/opentelemetry-extension-incubator-1.35.0-alpha.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.35.0/opentelemetry-sdk-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.35.0/opentelemetry-sdk-metrics-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.35.0/opentelemetry-sdk-logs-1.35.0.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-os/4.18.1/selenium-os-4.18.1.jar:/home/masaya/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.18.1/selenium-safari-driver-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-support/4.18.1/selenium-support-4.18.1.jar:/home/masaya/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.9.22/kotlin-stdlib-jdk8-1.9.22.jar:/home/masaya/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.9.22/kotlin-stdlib-1.9.22.jar:/home/masaya/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/home/masaya/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.9.22/kotlin-stdlib-jdk7-1.9.22.jar:/home/masaya/.m2/repository/org/jetbrains/kotlin/kotlin-reflect/1.9.22/kotlin-reflect-1.9.22.jar:/home/masaya/.m2/repository/org/jetbrains/kotlin/kotlin-test/1.9.22/kotlin-test-1.9.22.jar
+29-02-2024 00:30:46.602 [java] [DEBUG] found java executable in /home/masaya/.asdf/installs/java/openjdk-11/bin/java
+29-02-2024 00:30:46.602 [java] [DEBUG] running - /home/masaya/.asdf/installs/java/openjdk-11/bin/java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+29-02-2024 00:30:46.602 [java] [DEBUG] stdout/stderr is logged to logs/17654-java.out
+29-02-2024 00:30:46.608 [java] [ERROR] Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+29-02-2024 00:30:46.769 [java] [DEBUG] multithreading is set to false
+29-02-2024 00:30:46.789 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+29-02-2024 00:30:46.874 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+29-02-2024 00:30:46.874 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+29-02-2024 00:30:46.874 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+29-02-2024 00:30:47.731 [java] [DEBUG] gauge-java took 923milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+29-02-2024 00:30:47.738 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 923
+29-02-2024 00:30:47.742 [java] [DEBUG] starting gRPC server...
+29-02-2024 00:30:47.935 [java] [DEBUG] started gRPC server on port 43653
+29-02-2024 00:30:47.936 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 43653
+29-02-2024 00:30:48.122 [Gauge] [DEBUG] Successfully made the connection with runner with port: 43653
+29-02-2024 00:30:48.122 [Gauge] [DEBUG] Validation started.
+29-02-2024 00:30:48.603 [java] [DEBUG] Scanning packages for steps
+29-02-2024 00:30:48.609 [java] [DEBUG] Scanning packages for hooks
+29-02-2024 00:30:48.613 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+29-02-2024 00:30:48.988 [Gauge] [ERROR] [ValidationError] /home/masaya/source/game-todo/e2e/specs/display_screen.spec:5 Step implementation not found => 'Navigate to the application URL'
+29-02-2024 00:30:48.989 [Gauge] [ERROR] [ValidationError] /home/masaya/source/game-todo/e2e/specs/display_screen.spec:6 Step implementation not found => 'Verify the header is displayed'
+29-02-2024 00:30:48.989 [Gauge] [ERROR] [ValidationError] /home/masaya/source/game-todo/e2e/specs/display_screen.spec:7 Step implementation not found => 'Verify the todo list title is displayed'
+29-02-2024 00:30:48.989 [Gauge] [DEBUG] Run started
+29-02-2024 00:30:48.989 [Gauge] [DEBUG] Starting Html Report plugin
+29-02-2024 00:30:48.996 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+29-02-2024 00:30:48.996 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 33553
+29-02-2024 00:30:48.997 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 33553
+29-02-2024 00:30:48.997 [Gauge] [DEBUG] Initialising suite data store.
+29-02-2024 00:30:49.026 [html-report] [DEBUG] Transformed SuiteResult to report structure
+29-02-2024 00:30:49.034 [html-report] [INFO] Successfully generated html-report to => /home/masaya/source/game-todo/e2e/reports/html-report/index.html
+29-02-2024 00:30:49.034 [html-report] [DEBUG] Done generating HTML report using theme from /home/masaya/.gauge/plugins/html-report/4.3.0/themes/default
+29-02-2024 00:30:49.034 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+29-02-2024 00:30:49.037 [java] [DEBUG] Killing Java runner...
+29-02-2024 00:30:49.038 [java] [DEBUG] Stopping execution pool...
+29-02-2024 00:30:49.038 [java] [DEBUG] Shutting down grpc server...
+29-02-2024 00:30:49.044 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	1 skipped
+29-02-2024 00:30:49.044 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	1 skipped
+29-02-2024 00:30:49.044 [Gauge] [INFO] 
+Total time taken: 37ms
+29-02-2024 00:30:49.044 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+29-02-2024 00:32:21.608 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/masaya/source/game-todo/e2e/.gauge/screenshots
+29-02-2024 00:32:21.608 [Gauge] [DEBUG] Plugin java is already installed.
+29-02-2024 00:32:21.609 [Gauge] [DEBUG] Plugin html-report is already installed.
+29-02-2024 00:32:21.609 [Gauge] [DEBUG] Parsing started.
+29-02-2024 00:32:21.609 [Gauge] [DEBUG] Started concepts parsing.
+29-02-2024 00:32:21.609 [Gauge] [DEBUG] 0 concepts parsing completed.
+29-02-2024 00:32:21.609 [Gauge] [DEBUG] Started specifications parsing.
+29-02-2024 00:32:21.610 [Gauge] [DEBUG] 1 specifications parsing completed.
+29-02-2024 00:32:21.610 [Gauge] [DEBUG] Parsing completed.
+29-02-2024 00:32:21.612 [java] [DEBUG] ***** Printing Properties/Env Values *****
+29-02-2024 00:32:21.613 [java] [DEBUG] PATH: /home/masaya/.asdf/installs/gauge/1.5.4/bin:/home/masaya/.asdf/shims:/home/masaya/.asdf/bin:/home/masaya/.bun/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/masaya/.gauge/plugins/screenshot/0.1.0
+29-02-2024 00:32:21.613 [java] [DEBUG] JAVA_HOME: 
+29-02-2024 00:32:21.613 [java] [DEBUG] gauge_project_root: 
+29-02-2024 00:32:21.613 [java] [DEBUG] gauge_parallel_streams_count: 
+29-02-2024 00:32:21.613 [java] [DEBUG] gauge_reports_dir: reports
+29-02-2024 00:32:21.613 [java] [DEBUG] overwrite_reports: true
+29-02-2024 00:32:21.613 [java] [DEBUG] logs_directory: logs
+29-02-2024 00:32:21.613 [java] [DEBUG] enable_multithreading: 
+29-02-2024 00:32:21.613 [java] [DEBUG] gauge_specs_dir: specs
+29-02-2024 00:32:21.613 [java] [DEBUG] csv_delimiter: ,
+29-02-2024 00:32:21.613 [java] [DEBUG] gauge_java_home: 
+29-02-2024 00:32:21.613 [java] [DEBUG] gauge_custom_build_path: 
+29-02-2024 00:32:21.613 [java] [DEBUG] gauge_additional_libs: 
+29-02-2024 00:32:21.613 [java] [DEBUG] gauge_jvm_args: 
+29-02-2024 00:32:21.613 [java] [DEBUG] gauge_custom_compile_dir: 
+29-02-2024 00:32:21.613 [java] [DEBUG] gauge_clear_state_level: 
+29-02-2024 00:32:21.613 [java] [DEBUG] ***** END *****
+29-02-2024 00:32:22.468 [Gauge] [DEBUG] Checking updates...
+29-02-2024 00:32:22.468 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=linux&a=amd64
+29-02-2024 00:32:23.079 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=linux&a=amd64
+29-02-2024 00:32:23.283 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=linux&a=amd64
+29-02-2024 00:32:24.148 [java] [DEBUG] classpath set to /home/masaya/.gauge/plugins/java/0.10.3/*:/home/masaya/.gauge/plugins/java/0.10.3/libs/*:gauge_bin
+29-02-2024 00:32:24.148 [java] [DEBUG] found java executable in java
+29-02-2024 00:32:24.148 [java] [DEBUG] running - java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+29-02-2024 00:32:24.148 [java] [DEBUG] stdout/stderr is logged to logs/18289-java.out
+29-02-2024 00:32:24.485 [java] [DEBUG] multithreading is set to false
+29-02-2024 00:32:24.498 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+29-02-2024 00:32:24.567 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+29-02-2024 00:32:24.567 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+29-02-2024 00:32:24.567 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+29-02-2024 00:32:25.357 [java] [DEBUG] gauge-java took 859milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+29-02-2024 00:32:25.361 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 859
+29-02-2024 00:32:25.361 [java] [DEBUG] starting gRPC server...
+29-02-2024 00:32:25.474 [java] [DEBUG] started gRPC server on port 37989
+29-02-2024 00:32:25.475 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 37989
+29-02-2024 00:32:25.594 [Gauge] [DEBUG] Successfully made the connection with runner with port: 37989
+29-02-2024 00:32:25.594 [Gauge] [DEBUG] Validation started.
+29-02-2024 00:32:25.822 [java] [DEBUG] Scanning packages for steps
+29-02-2024 00:32:25.827 [java] [DEBUG] Scanning packages for hooks
+29-02-2024 00:32:25.832 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+29-02-2024 00:32:26.207 [Gauge] [ERROR] [ValidationError] /home/masaya/source/game-todo/e2e/specs/display_screen.spec:5 Step implementation not found => 'Navigate to the application URL'
+29-02-2024 00:32:26.207 [Gauge] [ERROR] [ValidationError] /home/masaya/source/game-todo/e2e/specs/display_screen.spec:6 Step implementation not found => 'Verify the header is displayed'
+29-02-2024 00:32:26.207 [Gauge] [ERROR] [ValidationError] /home/masaya/source/game-todo/e2e/specs/display_screen.spec:7 Step implementation not found => 'Verify the todo list title is displayed'
+29-02-2024 00:32:26.207 [Gauge] [INFO] Add the following missing implementations to fix `Step implementation not found` errors.
+29-02-2024 00:32:26.207 [Gauge] [INFO] 
+	@Step("Navigate to the application URL")
+	public void navigateToTheApplicationUrl(){
+		throw new UnsupportedOperationException("Provide custom implementation");
+	}
+29-02-2024 00:32:26.207 [Gauge] [INFO] 
+	@Step("Verify the header is displayed")
+	public void verifyTheHeaderIsDisplayed(){
+		throw new UnsupportedOperationException("Provide custom implementation");
+	}
+29-02-2024 00:32:26.207 [Gauge] [INFO] 
+	@Step("Verify the todo list title is displayed")
+	public void verifyTheTodoListTitleIsDisplayed(){
+		throw new UnsupportedOperationException("Provide custom implementation");
+	}
+29-02-2024 00:32:26.207 [Gauge] [DEBUG] Run started
+29-02-2024 00:32:26.208 [Gauge] [DEBUG] Starting Html Report plugin
+29-02-2024 00:32:26.213 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 37061
+29-02-2024 00:32:26.214 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 37061
+29-02-2024 00:32:26.215 [Gauge] [DEBUG] Initialising suite data store.
+29-02-2024 00:32:26.246 [html-report] [DEBUG] Transformed SuiteResult to report structure
+29-02-2024 00:32:26.254 [html-report] [INFO] Successfully generated html-report to => /home/masaya/source/game-todo/e2e/reports/html-report/index.html
+29-02-2024 00:32:26.255 [html-report] [DEBUG] Done generating HTML report using theme from /home/masaya/.gauge/plugins/html-report/4.3.0/themes/default
+29-02-2024 00:32:26.255 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+29-02-2024 00:32:26.257 [java] [DEBUG] Killing Java runner...
+29-02-2024 00:32:26.258 [java] [DEBUG] Stopping execution pool...
+29-02-2024 00:32:26.258 [java] [DEBUG] Shutting down grpc server...
+29-02-2024 00:32:26.263 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	1 skipped
+29-02-2024 00:32:26.263 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	1 skipped
+29-02-2024 00:32:26.263 [Gauge] [INFO] 
+Total time taken: 38ms
+29-02-2024 00:32:26.263 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+29-02-2024 00:40:31.438 [Gauge] [DEBUG] Created gauge_screenshots_dir at /home/masaya/source/game-todo/e2e/.gauge/screenshots
+29-02-2024 00:40:31.438 [Gauge] [DEBUG] Plugin java is already installed.
+29-02-2024 00:40:31.438 [Gauge] [DEBUG] Plugin html-report is already installed.
+29-02-2024 00:40:31.439 [Gauge] [DEBUG] Parsing started.
+29-02-2024 00:40:31.439 [Gauge] [DEBUG] Started concepts parsing.
+29-02-2024 00:40:31.439 [Gauge] [DEBUG] 0 concepts parsing completed.
+29-02-2024 00:40:31.439 [Gauge] [DEBUG] Started specifications parsing.
+29-02-2024 00:40:31.439 [Gauge] [DEBUG] 1 specifications parsing completed.
+29-02-2024 00:40:31.439 [Gauge] [DEBUG] Parsing completed.
+29-02-2024 00:40:31.443 [java] [DEBUG] ***** Printing Properties/Env Values *****
+29-02-2024 00:40:31.443 [java] [DEBUG] PATH: /home/masaya/.asdf/installs/gauge/1.5.4/bin:/home/masaya/.asdf/shims:/home/masaya/.asdf/bin:/home/masaya/.bun/bin:/home/masaya/.asdf/shims:/home/masaya/.asdf/shims:/home/masaya/.bun/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/masaya/.gauge/plugins/screenshot/0.1.0
+29-02-2024 00:40:31.443 [java] [DEBUG] JAVA_HOME: /home/masaya/.asdf/installs/java/openjdk-11
+29-02-2024 00:40:31.443 [java] [DEBUG] gauge_project_root: 
+29-02-2024 00:40:31.443 [java] [DEBUG] gauge_parallel_streams_count: 
+29-02-2024 00:40:31.443 [java] [DEBUG] gauge_reports_dir: reports
+29-02-2024 00:40:31.443 [java] [DEBUG] overwrite_reports: true
+29-02-2024 00:40:31.443 [java] [DEBUG] logs_directory: logs
+29-02-2024 00:40:31.443 [java] [DEBUG] enable_multithreading: 
+29-02-2024 00:40:31.443 [java] [DEBUG] gauge_specs_dir: specs
+29-02-2024 00:40:31.443 [java] [DEBUG] csv_delimiter: ,
+29-02-2024 00:40:31.443 [java] [DEBUG] gauge_java_home: 
+29-02-2024 00:40:31.443 [java] [DEBUG] gauge_custom_build_path: 
+29-02-2024 00:40:31.443 [java] [DEBUG] gauge_additional_libs: 
+29-02-2024 00:40:31.443 [java] [DEBUG] gauge_jvm_args: 
+29-02-2024 00:40:31.443 [java] [DEBUG] gauge_custom_compile_dir: 
+29-02-2024 00:40:31.443 [java] [DEBUG] gauge_clear_state_level: 
+29-02-2024 00:40:31.443 [java] [DEBUG] ***** END *****
+29-02-2024 00:40:31.477 [java] [ERROR] Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+29-02-2024 00:40:32.656 [Gauge] [DEBUG] Checking updates...
+29-02-2024 00:40:32.656 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=java&p=html-report,java,screenshot&o=linux&a=amd64
+29-02-2024 00:40:33.574 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/java?l=java&p=html-report,java,screenshot&o=linux&a=amd64
+29-02-2024 00:40:33.985 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=java&p=html-report,java,screenshot&o=linux&a=amd64
+29-02-2024 00:40:34.050 [java] [DEBUG] classpath set to /home/masaya/source/game-todo/e2e/target/test-classes:/home/masaya/source/game-todo/e2e/target/classes:/home/masaya/.m2/repository/com/thoughtworks/gauge/gauge-java/0.10.3/gauge-java-0.10.3.jar:/home/masaya/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/home/masaya/.m2/repository/net/bytebuddy/byte-buddy/1.12.21/byte-buddy-1.12.21.jar:/home/masaya/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar:/home/masaya/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/home/masaya/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/masaya/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/home/masaya/.m2/repository/com/github/javaparser/javaparser-core/3.25.6/javaparser-core-3.25.6.jar:/home/masaya/.m2/repository/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar:/home/masaya/.m2/repository/org/apache/commons/commons-lang3/3.13.0/commons-lang3-3.13.0.jar:/home/masaya/.m2/repository/org/json/json/20231013/json-20231013.jar:/home/masaya/.m2/repository/com/google/protobuf/protobuf-java/3.25.0/protobuf-java-3.25.0.jar:/home/masaya/.m2/repository/com/google/guava/guava/32.1.3-jre/guava-32.1.3-jre.jar:/home/masaya/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/masaya/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/masaya/.m2/repository/org/checkerframework/checker-qual/3.37.0/checker-qual-3.37.0.jar:/home/masaya/.m2/repository/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1.jar:/home/masaya/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/home/masaya/.m2/repository/io/grpc/grpc-api/1.59.0/grpc-api-1.59.0.jar:/home/masaya/.m2/repository/io/grpc/grpc-netty-shaded/1.59.0/grpc-netty-shaded-1.59.0.jar:/home/masaya/.m2/repository/io/perfmark/perfmark-api/0.26.0/perfmark-api-0.26.0.jar:/home/masaya/.m2/repository/io/grpc/grpc-core/1.59.0/grpc-core-1.59.0.jar:/home/masaya/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/home/masaya/.m2/repository/com/google/android/annotations/4.1.1.4/annotations-4.1.1.4.jar:/home/masaya/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.23/animal-sniffer-annotations-1.23.jar:/home/masaya/.m2/repository/io/grpc/grpc-context/1.59.0/grpc-context-1.59.0.jar:/home/masaya/.m2/repository/io/grpc/grpc-util/1.59.0/grpc-util-1.59.0.jar:/home/masaya/.m2/repository/io/grpc/grpc-protobuf/1.59.0/grpc-protobuf-1.59.0.jar:/home/masaya/.m2/repository/com/google/api/grpc/proto-google-common-protos/2.22.0/proto-google-common-protos-2.22.0.jar:/home/masaya/.m2/repository/io/grpc/grpc-protobuf-lite/1.59.0/grpc-protobuf-lite-1.59.0.jar:/home/masaya/.m2/repository/io/grpc/grpc-stub/1.59.0/grpc-stub-1.59.0.jar:/home/masaya/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-java/4.18.1/selenium-java-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-api/4.18.1/selenium-api-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.18.1/selenium-chrome-driver-4.18.1.jar:/home/masaya/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.18.1/selenium-chromium-driver-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-json/4.18.1/selenium-json-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.18.1/selenium-manager-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v120/4.18.1/selenium-devtools-v120-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v121/4.18.1/selenium-devtools-v121-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v122/4.18.1/selenium-devtools-v122-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.18.1/selenium-devtools-v85-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.18.1/selenium-edge-driver-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.18.1/selenium-firefox-driver-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-http/4.18.1/selenium-http-4.18.1.jar:/home/masaya/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.18.1/selenium-ie-driver-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.18.1/selenium-remote-driver-4.18.1.jar:/home/masaya/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.23.1-alpha/opentelemetry-semconv-1.23.1-alpha.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-api/1.35.0/opentelemetry-api-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-context/1.35.0/opentelemetry-context-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.35.0/opentelemetry-exporter-logging-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.35.0/opentelemetry-sdk-common-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.35.0/opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.35.0/opentelemetry-sdk-extension-autoconfigure-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.35.0-alpha/opentelemetry-api-events-1.35.0-alpha.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.35.0/opentelemetry-sdk-trace-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.35.0-alpha/opentelemetry-extension-incubator-1.35.0-alpha.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.35.0/opentelemetry-sdk-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.35.0/opentelemetry-sdk-metrics-1.35.0.jar:/home/masaya/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.35.0/opentelemetry-sdk-logs-1.35.0.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-os/4.18.1/selenium-os-4.18.1.jar:/home/masaya/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.18.1/selenium-safari-driver-4.18.1.jar:/home/masaya/.m2/repository/org/seleniumhq/selenium/selenium-support/4.18.1/selenium-support-4.18.1.jar:/home/masaya/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.9.22/kotlin-stdlib-jdk8-1.9.22.jar:/home/masaya/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.9.22/kotlin-stdlib-1.9.22.jar:/home/masaya/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/home/masaya/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.9.22/kotlin-stdlib-jdk7-1.9.22.jar:/home/masaya/.m2/repository/org/jetbrains/kotlin/kotlin-reflect/1.9.22/kotlin-reflect-1.9.22.jar:/home/masaya/.m2/repository/org/jetbrains/kotlin/kotlin-test/1.9.22/kotlin-test-1.9.22.jar
+29-02-2024 00:40:34.055 [java] [DEBUG] found java executable in /home/masaya/.asdf/installs/java/openjdk-11/bin/java
+29-02-2024 00:40:34.055 [java] [DEBUG] running - /home/masaya/.asdf/installs/java/openjdk-11/bin/java [-Dfile.encoding=UTF-8 com.thoughtworks.gauge.GaugeRuntime --start]
+29-02-2024 00:40:34.055 [java] [DEBUG] stdout/stderr is logged to logs/20135-java.out
+29-02-2024 00:40:34.070 [java] [ERROR] Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+29-02-2024 00:40:34.234 [java] [DEBUG] multithreading is set to false
+29-02-2024 00:40:34.247 [java] [DEBUG] Using reflection to scan dependencies for gauge implementations...
+29-02-2024 00:40:34.358 [java] [ERROR] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+29-02-2024 00:40:34.359 [java] [ERROR] SLF4J: Defaulting to no-operation (NOP) logger implementation
+29-02-2024 00:40:34.359 [java] [ERROR] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+29-02-2024 00:40:35.200 [java] [DEBUG] gauge-java took 952milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value.
+29-02-2024 00:40:35.204 [java] [DEBUG] run 'gauge config runner_connection_timeout' and verify that it is < 952
+29-02-2024 00:40:35.204 [java] [DEBUG] starting gRPC server...
+29-02-2024 00:40:35.319 [java] [DEBUG] started gRPC server on port 44691
+29-02-2024 00:40:35.319 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 44691
+29-02-2024 00:40:35.460 [Gauge] [DEBUG] Successfully made the connection with runner with port: 44691
+29-02-2024 00:40:35.461 [Gauge] [DEBUG] Validation started.
+29-02-2024 00:40:35.890 [java] [DEBUG] Scanning packages for steps
+29-02-2024 00:40:35.895 [java] [DEBUG] Scanning packages for hooks
+29-02-2024 00:40:35.899 [java] [DEBUG] Scanned steps (using static parsing + reflections): 
+29-02-2024 00:40:36.395 [Gauge] [ERROR] [ValidationError] /home/masaya/source/game-todo/e2e/specs/display_screen.spec:5 Step implementation not found => 'Navigate to the application URL'
+29-02-2024 00:40:36.395 [Gauge] [ERROR] [ValidationError] /home/masaya/source/game-todo/e2e/specs/display_screen.spec:6 Step implementation not found => 'Verify the header is displayed'
+29-02-2024 00:40:36.396 [Gauge] [ERROR] [ValidationError] /home/masaya/source/game-todo/e2e/specs/display_screen.spec:7 Step implementation not found => 'Verify the todo list title is displayed'
+29-02-2024 00:40:36.396 [Gauge] [INFO] Add the following missing implementations to fix `Step implementation not found` errors.
+29-02-2024 00:40:36.396 [Gauge] [INFO] 
+	@Step("Navigate to the application URL")
+	public void navigateToTheApplicationUrl(){
+		throw new UnsupportedOperationException("Provide custom implementation");
+	}
+29-02-2024 00:40:36.396 [Gauge] [INFO] 
+	@Step("Verify the header is displayed")
+	public void verifyTheHeaderIsDisplayed(){
+		throw new UnsupportedOperationException("Provide custom implementation");
+	}
+29-02-2024 00:40:36.396 [Gauge] [INFO] 
+	@Step("Verify the todo list title is displayed")
+	public void verifyTheTodoListTitleIsDisplayed(){
+		throw new UnsupportedOperationException("Provide custom implementation");
+	}
+29-02-2024 00:40:36.396 [Gauge] [DEBUG] Run started
+29-02-2024 00:40:36.396 [Gauge] [DEBUG] Starting Html Report plugin
+29-02-2024 00:40:36.401 [html-report] [DEBUG] Setting MaxRecvMsgSize = 1024 MB
+29-02-2024 00:40:36.402 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 35365
+29-02-2024 00:40:36.402 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 35365
+29-02-2024 00:40:36.402 [Gauge] [DEBUG] Initialising suite data store.
+29-02-2024 00:40:36.432 [html-report] [DEBUG] Transformed SuiteResult to report structure
+29-02-2024 00:40:36.443 [html-report] [INFO] Successfully generated html-report to => /home/masaya/source/game-todo/e2e/reports/html-report/index.html
+29-02-2024 00:40:36.443 [html-report] [DEBUG] Done generating HTML report using theme from /home/masaya/.gauge/plugins/html-report/4.3.0/themes/default
+29-02-2024 00:40:36.443 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+29-02-2024 00:40:36.445 [java] [DEBUG] Killing Java runner...
+29-02-2024 00:40:36.447 [java] [DEBUG] Stopping execution pool...
+29-02-2024 00:40:36.447 [java] [DEBUG] Shutting down grpc server...
+29-02-2024 00:40:36.452 [Gauge] [INFO] Specifications:	0 executed	0 passed	0 failed	1 skipped
+29-02-2024 00:40:36.452 [Gauge] [INFO] Scenarios:	0 executed	0 passed	0 failed	1 skipped
+29-02-2024 00:40:36.452 [Gauge] [INFO] 
+Total time taken: 35ms
+29-02-2024 00:40:36.453 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.

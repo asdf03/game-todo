@@ -1,0 +1,13 @@
+29-02-2024 00:20:49.497 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+29-02-2024 00:20:49.497 [Gauge] [INFO] Initializing specs cache with 1 specs
+29-02-2024 00:20:49.497 [Gauge] [DEBUG] Adding specs from /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+29-02-2024 00:20:49.497 [Gauge] [INFO] Initializing steps cache with 1 steps
+29-02-2024 00:20:49.498 [Gauge] [INFO] Gauge daemon initialized and listening on port: 33411
+29-02-2024 00:20:49.498 [Gauge] [DEBUG] Watching directory: /home/masaya/source/game-todo/e2e/specs
+29-02-2024 00:20:49.498 [Gauge] [DEBUG] Found 1 files
+29-02-2024 00:22:16.775 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Navigate to the application URL"}
+29-02-2024 00:22:16.775 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}}
+29-02-2024 00:22:17.039 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the header is displayed"}
+29-02-2024 00:22:17.039 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the header is displayed"  parameterizedStepValue:"Verify the header is displayed"}}
+29-02-2024 00:22:17.125 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the todo list title is displayed"}
+29-02-2024 00:22:17.125 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}}

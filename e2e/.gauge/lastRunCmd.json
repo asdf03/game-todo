@@ -1,0 +1,5 @@
+[
+	"/home/masaya/.asdf/installs/gauge/1.5.4/bin/gauge",
+	"run",
+	"--dir=/home/masaya/source/game-todo/e2e"
+]
