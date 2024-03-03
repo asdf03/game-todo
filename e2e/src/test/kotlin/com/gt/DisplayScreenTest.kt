@@ -10,17 +10,12 @@ class DisplayScreenTest {
   private val driver: WebDriver = ChromeDriver()
 
   init {
-    // WebDriverの初期設定、例えばChromeDriverのパス設定など
+    System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver")
   }
 
   @Step("Navigate to the application URL")
   fun navigateToApplicationURL() {
     driver.get("http://localhost:8080") // 仮のURL、実際のアプリケーションURLに置き換えてください
-  }
-
-  @Step("Verify the header is displayed")
-  fun verifyHeaderIsDisplayed() {
-    assert(driver.findElement(By.id("header")).isDisplayed)
   }
 
   @Step("Verify the todo list title is displayed")

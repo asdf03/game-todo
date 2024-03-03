@@ -96,3 +96,23 @@ mkdir -p e2e/env
 mkdir -p e2e/data
 mkdir -p e2e/reports
 ```
+
+```shell
+// Maven Wrapper
+// Mavenのインストールがなくてもプロジェクトをビルドできるようになる
+cd e2e
+touch pom.xml
+gauge run specs
+```
+
+### e2eに関して
+e2eディレクトリでmvn testを実行する
+gt-backではgaugeを使用してビルドしているが、e2eではmvnを使用してビルドしています。なので、build.gradle.ktsではなくpom.xmlに依存関係を書いています。
+
+### e2e pom.xmlに関して
+各プラグインに関するバージョンはMaven Centralから検索を行う
+e2eルートディレクトリにmanifest.jsonが必要
+
+
+
+

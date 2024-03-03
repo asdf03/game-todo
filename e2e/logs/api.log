@@ -11,3 +11,65 @@
 29-02-2024 00:22:17.039 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the header is displayed"  parameterizedStepValue:"Verify the header is displayed"}}
 29-02-2024 00:22:17.125 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the todo list title is displayed"}
 29-02-2024 00:22:17.125 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}}
+02-03-2024 18:22:19.635 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+02-03-2024 18:22:19.636 [Gauge] [INFO] Initializing specs cache with 1 specs
+02-03-2024 18:22:19.636 [Gauge] [DEBUG] Adding specs from /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+02-03-2024 18:22:19.636 [Gauge] [INFO] Initializing steps cache with 1 steps
+02-03-2024 18:22:19.636 [Gauge] [INFO] Gauge daemon initialized and listening on port: 35283
+02-03-2024 18:22:19.636 [Gauge] [DEBUG] Watching directory: /home/masaya/source/game-todo/e2e/specs
+02-03-2024 18:22:19.636 [Gauge] [DEBUG] Found 1 files
+03-03-2024 11:21:36.347 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+03-03-2024 11:21:36.348 [Gauge] [INFO] Initializing specs cache with 1 specs
+03-03-2024 11:21:36.348 [Gauge] [DEBUG] Adding specs from /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+03-03-2024 11:21:36.348 [Gauge] [INFO] Initializing steps cache with 1 steps
+03-03-2024 11:21:36.348 [Gauge] [INFO] Gauge daemon initialized and listening on port: 34473
+03-03-2024 11:21:36.348 [Gauge] [DEBUG] Watching directory: /home/masaya/source/game-todo/e2e/specs
+03-03-2024 11:21:36.348 [Gauge] [DEBUG] Found 1 files
+03-03-2024 12:08:10.388 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+03-03-2024 12:08:10.388 [Gauge] [INFO] Initializing specs cache with 1 specs
+03-03-2024 12:08:10.388 [Gauge] [DEBUG] Adding specs from /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+03-03-2024 12:08:10.388 [Gauge] [INFO] Initializing steps cache with 1 steps
+03-03-2024 12:08:10.388 [Gauge] [INFO] Gauge daemon initialized and listening on port: 40527
+03-03-2024 12:08:10.389 [Gauge] [DEBUG] Watching directory: /home/masaya/source/game-todo/e2e/specs
+03-03-2024 12:08:10.389 [Gauge] [DEBUG] Found 1 files
+03-03-2024 12:32:28.783 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Navigate to the application URL"}
+03-03-2024 12:32:28.783 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}}
+03-03-2024 12:32:28.789 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the header is displayed"}
+03-03-2024 12:32:28.789 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the header is displayed"  parameterizedStepValue:"Verify the header is displayed"}}
+03-03-2024 12:32:28.789 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the todo list title is displayed"}
+03-03-2024 12:32:28.790 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}}
+03-03-2024 14:59:45.260 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+03-03-2024 14:59:45.261 [Gauge] [INFO] Initializing specs cache with 1 specs
+03-03-2024 14:59:45.261 [Gauge] [DEBUG] Adding specs from /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+03-03-2024 14:59:45.261 [Gauge] [INFO] Initializing steps cache with 1 steps
+03-03-2024 14:59:45.261 [Gauge] [INFO] Gauge daemon initialized and listening on port: 42645
+03-03-2024 14:59:45.261 [Gauge] [DEBUG] Watching directory: /home/masaya/source/game-todo/e2e/specs
+03-03-2024 14:59:45.262 [Gauge] [DEBUG] Found 1 files
+03-03-2024 15:00:16.858 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Navigate to the application URL"}
+03-03-2024 15:00:16.858 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}}
+03-03-2024 15:00:20.245 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the header is displayed"}
+03-03-2024 15:00:20.245 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the header is displayed"  parameterizedStepValue:"Verify the header is displayed"}}
+03-03-2024 15:00:20.261 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the todo list title is displayed"}
+03-03-2024 15:00:20.261 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}}
+03-03-2024 15:12:30.223 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+03-03-2024 15:12:30.223 [Gauge] [INFO] Initializing specs cache with 1 specs
+03-03-2024 15:12:30.223 [Gauge] [DEBUG] Adding specs from /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+03-03-2024 15:12:30.223 [Gauge] [INFO] Initializing steps cache with 1 steps
+03-03-2024 15:12:30.223 [Gauge] [INFO] Gauge daemon initialized and listening on port: 44405
+03-03-2024 15:12:30.224 [Gauge] [DEBUG] Watching directory: /home/masaya/source/game-todo/e2e/specs
+03-03-2024 15:12:30.224 [Gauge] [DEBUG] Found 1 files
+03-03-2024 15:13:42.077 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+03-03-2024 15:13:42.077 [Gauge] [INFO] Initializing specs cache with 1 specs
+03-03-2024 15:13:42.077 [Gauge] [DEBUG] Adding specs from /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+03-03-2024 15:13:42.077 [Gauge] [INFO] Initializing steps cache with 1 steps
+03-03-2024 15:13:42.077 [Gauge] [INFO] Gauge daemon initialized and listening on port: 33817
+03-03-2024 15:13:42.078 [Gauge] [DEBUG] Watching directory: /home/masaya/source/game-todo/e2e/specs
+03-03-2024 15:13:42.078 [Gauge] [DEBUG] Found 1 files
+03-03-2024 15:14:15.524 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Navigate to the application URL"}
+03-03-2024 15:14:15.524 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}}
+03-03-2024 15:14:15.810 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the header is displayed"}
+03-03-2024 15:14:15.810 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the header is displayed"  parameterizedStepValue:"Verify the header is displayed"}}
+03-03-2024 15:14:15.817 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the todo list title is displayed"}
+03-03-2024 15:14:15.818 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}}
+03-03-2024 15:15:34.819 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+03-03-2024 15:15:34.828 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/display_screen.spec
