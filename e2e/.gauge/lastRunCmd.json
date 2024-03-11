@@ -1,5 +1,8 @@
 [
 	"/home/masaya/.asdf/installs/gauge/1.5.4/bin/gauge",
 	"run",
-	"--dir=/home/masaya/source/game-todo/e2e"
+	"--machine-readable",
+	"--hide-suggestion",
+	"--simple-console",
+	"/home/masaya/source/game-todo/e2e/specs/display_screen.spec:3"
 ]

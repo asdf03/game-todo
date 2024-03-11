@@ -1,5 +1,7 @@
 package com.gt
 
+import com.thoughtworks.gauge.AfterSpec
+import com.thoughtworks.gauge.BeforeSpec
 import com.thoughtworks.gauge.Step
 import org.openqa.selenium.By
 import org.openqa.selenium.WebDriver
@@ -7,10 +9,17 @@ import org.openqa.selenium.chrome.ChromeDriver
 
 class DisplayScreenTest {
 
-  private val driver: WebDriver = ChromeDriver()
+  private lateinit var driver: WebDriver
 
-  init {
+  @BeforeSpec
+  fun setUp() {
     System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver")
+    driver = ChromeDriver()
+  }
+
+  @AfterSpec
+  fun tearDown() {
+    driver.quit()
   }
 
   @Step("Navigate to the application URL")

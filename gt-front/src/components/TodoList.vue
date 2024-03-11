@@ -1,25 +1,39 @@
 <template>
   <div>
-    <h1>ToDo</h1>
-    <ul>
-      <li v-for="todo in todos" :key="todo.id">
-        {{ todo.text }}
-      </li>
-    </ul>
+    <h1 id="todo-title">Todo リスト</h1>
+    <div>
+      <ul>
+        <li v-for="todo in todos" :key="todo.id">
+          {{ todo.title }}
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
-  name: 'TodoList',
   data() {
     return {
-      todos: [
-        { id: 1, text: 'Learn Vue.js' }
-        ,{ id: 2, text: 'Build a Todo List' }
-        ,{ id: 3, text: 'Explore more projects' }
-      ]
+      todos: []
+    };
+  },
+  mounted() {
+    this.fetchTodos();
+  },
+  methods: {
+    async fetchTodos() {
+      try {
+        const response = await axios.get('http://aaa/todos');
+        this.todos = response.data;
+      } catch (error) {
+        console.error('Error fetching todos:', error);
+      }
     }
   }
-}
+};
 </script>
+
+<style></style>

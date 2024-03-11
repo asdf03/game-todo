@@ -1,7 +1,9 @@
 {
 	"Args": [
 		"run",
-		"--dir=/home/masaya/source/game-todo/e2e"
+		"--machine-readable",
+		"--hide-suggestion",
+		"--simple-console"
 	],
 	"FailedItems": []
 }
