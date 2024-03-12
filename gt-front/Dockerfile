@@ -1,4 +1,13 @@
-FROM ubuntu:latest
-LABEL authors="masaya"
+FROM node:21
 
-ENTRYPOINT ["top", "-b"]
+WORKDIR /app
+
+COPY package.json yarn.lock ./
+
+RUN yarn install
+
+COPY . .
+
+EXPOSE 8080
+
+CMD ["yarn", "serve"]

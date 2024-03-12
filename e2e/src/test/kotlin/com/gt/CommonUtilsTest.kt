@@ -1,13 +1,12 @@
 package com.gt
 
-import com.codeborne.selenide.Selenide.open
+import com.codeborne.selenide.Selenide
 import com.thoughtworks.gauge.Step
-
-object CommonUtils {
+class CommonUtilsTest {
 
   @Step("Navigate to the application URL")
   fun navigateToApplicationURL() {
-    open("http://localhost:8080")
+    Selenide.open("http://localhost:8080")
   }
 
 }

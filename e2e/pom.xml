@@ -8,11 +8,11 @@
     <version>0.0.1-SNAPSHOT</version>
 
     <properties>
-        <kotlin.version>1.9.0</kotlin.version> <!-- 使用するKotlinのバージョン -->
+        <kotlin.version>1.9.0</kotlin.version>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <gauge.version>0.10.3</gauge.version>
-        <selenium.version>4.18.1</selenium.version>
+        <selenide.version>6.17.0</selenide.version>
     </properties>
 
     <dependencies>
@@ -25,9 +25,9 @@
 
         <!-- Selenium for browser automation -->
         <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>${selenium.version}</version>
+            <groupId>com.codeborne</groupId>
+            <artifactId>selenide</artifactId>
+            <version>${selenide.version}</version>
         </dependency>
 
         <!-- Kotlin -->
@@ -142,7 +142,6 @@
                 </executions>
             </plugin>
 
-            <!-- Additional plugins as required -->
         </plugins>
     </build>
 </project>

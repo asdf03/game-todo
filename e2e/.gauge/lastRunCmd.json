@@ -4,5 +4,5 @@
 	"--machine-readable",
 	"--hide-suggestion",
 	"--simple-console",
-	"/home/masaya/source/game-todo/e2e/specs/display_screen.spec:3"
+	"/home/masaya/source/game-todo/e2e/specs/display_screen.spec"
 ]

@@ -113,6 +113,24 @@ gt-backではgaugeを使用してビルドしているが、e2eではmvnを使�
 各プラグインに関するバージョンはMaven Centralから検索を行う
 e2eルートディレクトリにmanifest.jsonが必要
 
+```
+e2e/
+│
+├── specs/       # テスト仕様を格納するディレクトリ
+│   ├── display_screen.spec.js    # ディスプレイ画面のテスト
+│   ├── add_todo.spec.js          # ToDoアイテム追加機能のテスト
+│   ├── complete_todo.spec.js     # ToDoアイテム完了機能のテスト
+│   ├── delete_todo.spec.js       # ToDoアイテム削除機能のテスト
+│   └── filter_todo.spec.js       # ToDoアイテムフィルタリング機能のテスト
+│
+├── helpers/     # テストで再利用可能なヘルパー関数を格納するディレクトリ
+│   ├── todo_actions.js           # ToDoアイテムの追加、削除などのアクション
+│   └── setup_teardown.js         # テストのセットアップとティアダウンのロジック
+│
+└── fixtures/    # テストデータを格納するディレクトリ
+└── todos.json                # テストに使用するToDoアイテムのサンプルデータ
+```
+
 
 
 

@@ -1,0 +1,22 @@
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+{"logLevel":"debug","message":"gauge-java took 1050milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1050"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 41529"}
+{"logLevel":"info","message":"Listening on port:41529"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Loading Verify the todo list title is displayedvia reflected sources."}
+{"logLevel":"debug","message":"Loading Navigate to the application URLvia reflected sources."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tVerify the todo list title is displayed : null"}
+{"logLevel":"debug","message":"\tNavigate to the application URL : null"}
+{"logLevel":"debug","message":"Executing 'Navigate to the application URL' using 'class com.gt.CommonUtils.navigateToApplicationURL"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}

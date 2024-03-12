@@ -125,3 +125,434 @@
 11-03-2024 21:43:05.078 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}}
 11-03-2024 21:43:05.088 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the todo list title is displayed"}
 11-03-2024 21:43:05.088 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}}
+12-03-2024 19:39:52.756 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+12-03-2024 19:39:52.757 [Gauge] [INFO] Initializing specs cache with 1 specs
+12-03-2024 19:39:52.757 [Gauge] [DEBUG] Adding specs from /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+12-03-2024 19:39:52.757 [Gauge] [INFO] Initializing steps cache with 1 steps
+12-03-2024 19:39:52.757 [Gauge] [INFO] Gauge daemon initialized and listening on port: 44847
+12-03-2024 19:39:52.757 [Gauge] [DEBUG] Watching directory: /home/masaya/source/game-todo/e2e/specs
+12-03-2024 19:39:52.757 [Gauge] [DEBUG] Found 1 files
+12-03-2024 19:43:03.016 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Navigate to the application URL"}
+12-03-2024 19:43:03.017 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}}
+12-03-2024 19:43:03.023 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the todo list title is displayed"}
+12-03-2024 19:43:03.024 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}}
+12-03-2024 19:45:54.366 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+12-03-2024 19:45:54.374 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+12-03-2024 19:45:54.432 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+12-03-2024 19:45:54.433 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+12-03-2024 19:46:54.369 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+12-03-2024 19:46:54.378 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+12-03-2024 19:47:23.278 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+12-03-2024 19:47:23.280 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+13-03-2024 06:41:14.312 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+13-03-2024 06:41:14.313 [Gauge] [INFO] Initializing specs cache with 1 specs
+13-03-2024 06:41:14.313 [Gauge] [DEBUG] Adding specs from /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+13-03-2024 06:41:14.313 [Gauge] [INFO] Initializing steps cache with 1 steps
+13-03-2024 06:41:14.313 [Gauge] [INFO] Gauge daemon initialized and listening on port: 37955
+13-03-2024 06:41:14.313 [Gauge] [DEBUG] Watching directory: /home/masaya/source/game-todo/e2e/specs
+13-03-2024 06:41:14.313 [Gauge] [DEBUG] Found 1 files
+13-03-2024 06:42:01.319 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/add_todo.spec
+13-03-2024 06:42:37.374 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/complate_todo.spec
+13-03-2024 06:42:55.284 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/delete_todo.spec
+13-03-2024 06:43:24.752 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Navigate to the application URL"}
+13-03-2024 06:43:24.753 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}}
+13-03-2024 06:43:25.245 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the todo list title is displayed"}
+13-03-2024 06:43:25.245 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}}
+13-03-2024 06:43:27.445 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+13-03-2024 06:43:27.454 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+13-03-2024 06:43:30.531 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+13-03-2024 06:43:30.540 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+13-03-2024 06:43:30.588 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+13-03-2024 06:43:30.589 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+13-03-2024 06:44:11.011 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+13-03-2024 06:44:11.013 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+13-03-2024 06:47:12.781 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+13-03-2024 06:47:12.782 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+13-03-2024 06:48:01.055 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+13-03-2024 06:48:01.064 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+13-03-2024 06:48:01.314 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+13-03-2024 06:48:01.323 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+13-03-2024 06:48:05.382 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+13-03-2024 06:48:05.391 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+13-03-2024 06:48:45.283 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/add_todo.spec
+13-03-2024 06:48:45.292 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/add_todo.spec
+13-03-2024 06:48:45.445 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/add_todo.spec
+13-03-2024 06:48:45.453 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/add_todo.spec
+13-03-2024 06:48:51.194 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/add_todo.spec
+13-03-2024 06:48:51.203 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/add_todo.spec
+13-03-2024 06:53:53.177 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/add_todo.spec
+13-03-2024 06:53:53.187 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/add_todo.spec
+13-03-2024 06:53:55.312 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{}
+13-03-2024 06:53:55.312 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{}}
+13-03-2024 06:53:56.142 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"n"}
+13-03-2024 06:53:56.143 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"n"  parameterizedStepValue:"n"}}
+13-03-2024 06:53:56.183 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:53:56.183 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}}
+13-03-2024 06:53:56.185 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:53:56.185 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:53:56.453 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"na"}
+13-03-2024 06:53:56.453 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"na"  parameterizedStepValue:"na"}}
+13-03-2024 06:53:56.957 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"nav"}
+13-03-2024 06:53:56.957 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"nav"  parameterizedStepValue:"nav"}}
+13-03-2024 06:53:57.089 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"navi"}
+13-03-2024 06:53:57.089 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"navi"  parameterizedStepValue:"navi"}}
+13-03-2024 06:54:00.943 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/add_todo.spec
+13-03-2024 06:54:00.952 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/add_todo.spec
+13-03-2024 06:54:02.620 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{}
+13-03-2024 06:54:02.620 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{}}
+13-03-2024 06:54:04.514 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"E"}
+13-03-2024 06:54:04.514 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"E"  parameterizedStepValue:"E"}}
+13-03-2024 06:54:04.545 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:54:04.545 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}  allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}}
+13-03-2024 06:54:04.545 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:54:04.545 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:54:04.666 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"En"}
+13-03-2024 06:54:04.666 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"En"  parameterizedStepValue:"En"}}
+13-03-2024 06:54:05.121 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Ent"}
+13-03-2024 06:54:05.121 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Ent"  parameterizedStepValue:"Ent"}}
+13-03-2024 06:54:05.234 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Ente"}
+13-03-2024 06:54:05.234 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Ente"  parameterizedStepValue:"Ente"}}
+13-03-2024 06:54:05.497 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Enter"}
+13-03-2024 06:54:05.498 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Enter"  parameterizedStepValue:"Enter"}}
+13-03-2024 06:54:07.416 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Enter t"}
+13-03-2024 06:54:07.416 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Enter t"  parameterizedStepValue:"Enter t"}}
+13-03-2024 06:54:07.445 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:54:07.445 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}}
+13-03-2024 06:54:07.445 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:54:07.445 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:54:07.448 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:54:07.448 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}  allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}}
+13-03-2024 06:54:07.448 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:54:07.448 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:54:07.652 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Enter te"}
+13-03-2024 06:54:07.652 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Enter te"  parameterizedStepValue:"Enter te"}}
+13-03-2024 06:54:08.071 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Enter tex"}
+13-03-2024 06:54:08.071 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Enter tex"  parameterizedStepValue:"Enter tex"}}
+13-03-2024 06:54:08.234 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Enter text"}
+13-03-2024 06:54:08.234 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Enter text"  parameterizedStepValue:"Enter text"}}
+13-03-2024 06:54:08.743 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Enter text i"}
+13-03-2024 06:54:08.743 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Enter text i"  parameterizedStepValue:"Enter text i"}}
+13-03-2024 06:54:08.769 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:54:08.769 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}}
+13-03-2024 06:54:08.769 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:54:08.769 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:54:08.771 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:54:08.771 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}}
+13-03-2024 06:54:08.771 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:54:08.771 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:54:08.869 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Enter text in"}
+13-03-2024 06:54:08.869 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Enter text in"  parameterizedStepValue:"Enter text in"}}
+13-03-2024 06:54:14.835 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Enter text in t"}
+13-03-2024 06:54:14.835 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Enter text in t"  parameterizedStepValue:"Enter text in t"}}
+13-03-2024 06:54:14.859 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:54:14.859 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}}
+13-03-2024 06:54:14.859 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:54:14.859 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:54:14.861 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:54:14.861 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}}
+13-03-2024 06:54:14.861 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:54:14.861 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:54:15.276 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Enter text in th"}
+13-03-2024 06:54:15.276 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Enter text in th"  parameterizedStepValue:"Enter text in th"}}
+13-03-2024 06:54:15.389 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Enter text in the"}
+13-03-2024 06:54:15.389 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Enter text in the"  parameterizedStepValue:"Enter text in the"}}
+13-03-2024 06:54:16.190 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Enter text in the a"}
+13-03-2024 06:54:16.190 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Enter text in the a"  parameterizedStepValue:"Enter text in the a"}}
+13-03-2024 06:54:16.215 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:54:16.215 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}}
+13-03-2024 06:54:16.215 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:54:16.215 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:54:16.218 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:54:16.218 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}}
+13-03-2024 06:54:16.218 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:54:16.218 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:54:16.494 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Enter text in the ad"}
+13-03-2024 06:54:16.494 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Enter text in the ad"  parameterizedStepValue:"Enter text in the ad"}}
+13-03-2024 06:54:16.747 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Enter text in the add"}
+13-03-2024 06:54:16.747 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Enter text in the add"  parameterizedStepValue:"Enter text in the add"}}
+13-03-2024 06:54:17.021 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Enter text in the add t"}
+13-03-2024 06:54:17.021 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Enter text in the add t"  parameterizedStepValue:"Enter text in the add t"}}
+13-03-2024 06:54:17.045 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:54:17.046 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}}
+13-03-2024 06:54:17.046 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:54:17.046 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:54:17.049 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:54:17.049 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}}
+13-03-2024 06:54:17.049 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:54:17.049 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:54:17.230 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Enter text in the add to"}
+13-03-2024 06:54:17.230 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Enter text in the add to"  parameterizedStepValue:"Enter text in the add to"}}
+13-03-2024 06:54:17.376 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Enter text in the add tod"}
+13-03-2024 06:54:17.376 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Enter text in the add tod"  parameterizedStepValue:"Enter text in the add tod"}}
+13-03-2024 06:54:17.503 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Enter text in the add todo"}
+13-03-2024 06:54:17.503 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Enter text in the add todo"  parameterizedStepValue:"Enter text in the add todo"}}
+13-03-2024 06:54:17.941 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Enter text in the add todo i"}
+13-03-2024 06:54:17.941 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Enter text in the add todo i"  parameterizedStepValue:"Enter text in the add todo i"}}
+13-03-2024 06:54:17.971 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:54:17.971 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}}
+13-03-2024 06:54:17.972 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:54:17.972 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:54:17.974 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:54:17.974 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}}
+13-03-2024 06:54:17.974 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:54:17.974 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:54:18.161 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Enter text in the add todo in"}
+13-03-2024 06:54:18.161 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Enter text in the add todo in"  parameterizedStepValue:"Enter text in the add todo in"}}
+13-03-2024 06:54:18.565 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Enter text in the add todo inp"}
+13-03-2024 06:54:18.565 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Enter text in the add todo inp"  parameterizedStepValue:"Enter text in the add todo inp"}}
+13-03-2024 06:54:18.968 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Enter text in the add todo inpu"}
+13-03-2024 06:54:18.968 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Enter text in the add todo inpu"  parameterizedStepValue:"Enter text in the add todo inpu"}}
+13-03-2024 06:54:19.924 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Enter text in the add todo input"}
+13-03-2024 06:54:19.924 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Enter text in the add todo input"  parameterizedStepValue:"Enter text in the add todo input"}}
+13-03-2024 06:54:21.211 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Enter text in the add todo input f"}
+13-03-2024 06:54:21.211 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Enter text in the add todo input f"  parameterizedStepValue:"Enter text in the add todo input f"}}
+13-03-2024 06:54:21.234 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:54:21.234 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}}
+13-03-2024 06:54:21.234 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:54:21.234 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:54:21.236 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:54:21.236 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}}
+13-03-2024 06:54:21.237 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:54:21.237 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:54:21.342 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Enter text in the add todo input fi"}
+13-03-2024 06:54:21.342 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Enter text in the add todo input fi"  parameterizedStepValue:"Enter text in the add todo input fi"}}
+13-03-2024 06:54:23.904 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Enter text in the add todo input fie"}
+13-03-2024 06:54:23.904 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Enter text in the add todo input fie"  parameterizedStepValue:"Enter text in the add todo input fie"}}
+13-03-2024 06:54:24.656 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Enter text in the add todo input fiel"}
+13-03-2024 06:54:24.656 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Enter text in the add todo input fiel"  parameterizedStepValue:"Enter text in the add todo input fiel"}}
+13-03-2024 06:54:24.869 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Enter text in the add todo input field"}
+13-03-2024 06:54:24.869 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Enter text in the add todo input field"  parameterizedStepValue:"Enter text in the add todo input field"}}
+13-03-2024 06:54:25.737 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/add_todo.spec
+13-03-2024 06:54:25.746 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/add_todo.spec
+13-03-2024 06:54:28.008 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{}
+13-03-2024 06:54:28.008 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{}}
+13-03-2024 06:54:28.749 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"C"}
+13-03-2024 06:54:28.750 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"C"  parameterizedStepValue:"C"}}
+13-03-2024 06:54:28.774 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:54:28.774 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}  allSteps:{stepValue:"Enter text in the add todo input field"  parameterizedStepValue:"Enter text in the add todo input field"}}
+13-03-2024 06:54:28.776 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:54:28.776 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:54:29.174 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Cl"}
+13-03-2024 06:54:29.175 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Cl"  parameterizedStepValue:"Cl"}}
+13-03-2024 06:54:29.313 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Cli"}
+13-03-2024 06:54:29.313 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Cli"  parameterizedStepValue:"Cli"}}
+13-03-2024 06:54:30.974 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:54:30.974 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}  allSteps:{stepValue:"Enter text in the add todo input field"  parameterizedStepValue:"Enter text in the add todo input field"}}
+13-03-2024 06:54:30.974 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:54:30.975 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:54:31.838 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Clic"}
+13-03-2024 06:54:31.838 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Clic"  parameterizedStepValue:"Clic"}}
+13-03-2024 06:54:32.022 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click"}
+13-03-2024 06:54:32.022 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click"  parameterizedStepValue:"Click"}}
+13-03-2024 06:54:55.476 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/add_todo.spec
+13-03-2024 06:54:55.485 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/add_todo.spec
+13-03-2024 06:55:05.515 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click t"}
+13-03-2024 06:55:05.516 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click t"  parameterizedStepValue:"Click t"}}
+13-03-2024 06:55:05.537 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:55:05.537 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Click"  parameterizedStepValue:"Click"}  allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}  allSteps:{stepValue:"Enter text in the add todo input field"  parameterizedStepValue:"Enter text in the add todo input field"}}
+13-03-2024 06:55:05.538 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:55:05.538 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:55:05.539 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:55:05.539 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}  allSteps:{stepValue:"Enter text in the add todo input field"  parameterizedStepValue:"Enter text in the add todo input field"}  allSteps:{stepValue:"Click"  parameterizedStepValue:"Click"}  allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}}
+13-03-2024 06:55:05.539 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:55:05.539 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:55:05.730 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click th"}
+13-03-2024 06:55:05.730 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click th"  parameterizedStepValue:"Click th"}}
+13-03-2024 06:55:05.927 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click the"}
+13-03-2024 06:55:05.927 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click the"  parameterizedStepValue:"Click the"}}
+13-03-2024 06:55:07.596 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click the a"}
+13-03-2024 06:55:07.597 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click the a"  parameterizedStepValue:"Click the a"}}
+13-03-2024 06:55:07.620 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:55:07.620 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}  allSteps:{stepValue:"Enter text in the add todo input field"  parameterizedStepValue:"Enter text in the add todo input field"}  allSteps:{stepValue:"Click"  parameterizedStepValue:"Click"}}
+13-03-2024 06:55:07.620 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:55:07.620 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:55:07.622 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:55:07.622 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Click"  parameterizedStepValue:"Click"}  allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}  allSteps:{stepValue:"Enter text in the add todo input field"  parameterizedStepValue:"Enter text in the add todo input field"}}
+13-03-2024 06:55:07.622 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:55:07.622 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:55:08.028 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click the ad"}
+13-03-2024 06:55:08.028 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click the ad"  parameterizedStepValue:"Click the ad"}}
+13-03-2024 06:55:08.260 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click the add"}
+13-03-2024 06:55:08.260 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click the add"  parameterizedStepValue:"Click the add"}}
+13-03-2024 06:55:08.637 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click the add t"}
+13-03-2024 06:55:08.637 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click the add t"  parameterizedStepValue:"Click the add t"}}
+13-03-2024 06:55:08.659 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:55:08.659 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Click"  parameterizedStepValue:"Click"}  allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}  allSteps:{stepValue:"Enter text in the add todo input field"  parameterizedStepValue:"Enter text in the add todo input field"}}
+13-03-2024 06:55:08.659 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:55:08.659 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:55:08.661 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:55:08.661 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}  allSteps:{stepValue:"Enter text in the add todo input field"  parameterizedStepValue:"Enter text in the add todo input field"}  allSteps:{stepValue:"Click"  parameterizedStepValue:"Click"}}
+13-03-2024 06:55:08.661 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:55:08.661 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:55:08.856 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click the add to"}
+13-03-2024 06:55:08.857 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click the add to"  parameterizedStepValue:"Click the add to"}}
+13-03-2024 06:55:09.089 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click the add tod"}
+13-03-2024 06:55:09.089 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click the add tod"  parameterizedStepValue:"Click the add tod"}}
+13-03-2024 06:55:09.208 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click the add todo"}
+13-03-2024 06:55:09.208 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click the add todo"  parameterizedStepValue:"Click the add todo"}}
+13-03-2024 06:55:09.876 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click the add todo b"}
+13-03-2024 06:55:09.876 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click the add todo b"  parameterizedStepValue:"Click the add todo b"}}
+13-03-2024 06:55:09.901 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:55:09.901 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Enter text in the add todo input field"  parameterizedStepValue:"Enter text in the add todo input field"}  allSteps:{stepValue:"Click"  parameterizedStepValue:"Click"}  allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}}
+13-03-2024 06:55:09.901 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:55:09.901 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:55:09.903 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:55:09.903 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}  allSteps:{stepValue:"Enter text in the add todo input field"  parameterizedStepValue:"Enter text in the add todo input field"}  allSteps:{stepValue:"Click"  parameterizedStepValue:"Click"}}
+13-03-2024 06:55:09.903 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:55:09.903 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:55:10.005 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click the add todo bu"}
+13-03-2024 06:55:10.006 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click the add todo bu"  parameterizedStepValue:"Click the add todo bu"}}
+13-03-2024 06:55:10.408 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click the add todo but"}
+13-03-2024 06:55:10.408 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click the add todo but"  parameterizedStepValue:"Click the add todo but"}}
+13-03-2024 06:55:10.583 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click the add todo butt"}
+13-03-2024 06:55:10.583 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click the add todo butt"  parameterizedStepValue:"Click the add todo butt"}}
+13-03-2024 06:55:11.360 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click the add todo butto"}
+13-03-2024 06:55:11.360 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click the add todo butto"  parameterizedStepValue:"Click the add todo butto"}}
+13-03-2024 06:55:11.474 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Click the add todo button"}
+13-03-2024 06:55:11.474 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Click the add todo button"  parameterizedStepValue:"Click the add todo button"}}
+13-03-2024 06:55:12.586 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/add_todo.spec
+13-03-2024 06:55:12.595 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/add_todo.spec
+13-03-2024 06:55:14.110 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{}
+13-03-2024 06:55:14.110 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{}}
+13-03-2024 06:55:16.647 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"v"}
+13-03-2024 06:55:16.647 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"v"  parameterizedStepValue:"v"}}
+13-03-2024 06:55:16.672 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:55:16.672 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Enter text in the add todo input field"  parameterizedStepValue:"Enter text in the add todo input field"}  allSteps:{stepValue:"Click the add todo button"  parameterizedStepValue:"Click the add todo button"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}}
+13-03-2024 06:55:16.673 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:55:16.673 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:55:16.783 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"vi"}
+13-03-2024 06:55:16.783 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"vi"  parameterizedStepValue:"vi"}}
+13-03-2024 06:55:22.266 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{}
+13-03-2024 06:55:22.266 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{}}
+13-03-2024 06:55:23.913 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"V"}
+13-03-2024 06:55:23.913 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"V"  parameterizedStepValue:"V"}}
+13-03-2024 06:55:23.937 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:55:23.937 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}  allSteps:{stepValue:"Enter text in the add todo input field"  parameterizedStepValue:"Enter text in the add todo input field"}  allSteps:{stepValue:"Click the add todo button"  parameterizedStepValue:"Click the add todo button"}}
+13-03-2024 06:55:23.937 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:55:23.937 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:55:24.498 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Ve"}
+13-03-2024 06:55:24.498 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Ve"  parameterizedStepValue:"Ve"}}
+13-03-2024 06:55:26.110 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Ver"}
+13-03-2024 06:55:26.110 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Ver"  parameterizedStepValue:"Ver"}}
+13-03-2024 06:55:27.258 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Veri"}
+13-03-2024 06:55:27.258 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Veri"  parameterizedStepValue:"Veri"}}
+13-03-2024 06:55:27.911 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verif"}
+13-03-2024 06:55:27.912 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verif"  parameterizedStepValue:"Verif"}}
+13-03-2024 06:55:28.332 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify"}
+13-03-2024 06:55:28.333 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify"  parameterizedStepValue:"Verify"}}
+13-03-2024 06:55:29.953 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify t"}
+13-03-2024 06:55:29.953 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify t"  parameterizedStepValue:"Verify t"}}
+13-03-2024 06:55:29.978 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:55:29.979 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Click the add todo button"  parameterizedStepValue:"Click the add todo button"}  allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}  allSteps:{stepValue:"Enter text in the add todo input field"  parameterizedStepValue:"Enter text in the add todo input field"}}
+13-03-2024 06:55:29.979 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:55:29.979 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:55:30.218 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify th"}
+13-03-2024 06:55:30.218 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify th"  parameterizedStepValue:"Verify th"}}
+13-03-2024 06:55:30.408 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the"}
+13-03-2024 06:55:30.408 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the"  parameterizedStepValue:"Verify the"}}
+13-03-2024 06:55:31.356 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the n"}
+13-03-2024 06:55:31.356 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the n"  parameterizedStepValue:"Verify the n"}}
+13-03-2024 06:55:31.376 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:55:31.376 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}  allSteps:{stepValue:"Enter text in the add todo input field"  parameterizedStepValue:"Enter text in the add todo input field"}  allSteps:{stepValue:"Click the add todo button"  parameterizedStepValue:"Click the add todo button"}  allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}}
+13-03-2024 06:55:31.376 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:55:31.376 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:55:31.379 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:55:31.379 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Enter text in the add todo input field"  parameterizedStepValue:"Enter text in the add todo input field"}  allSteps:{stepValue:"Click the add todo button"  parameterizedStepValue:"Click the add todo button"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}}
+13-03-2024 06:55:31.379 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:55:31.379 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:55:31.477 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the ne"}
+13-03-2024 06:55:31.477 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the ne"  parameterizedStepValue:"Verify the ne"}}
+13-03-2024 06:55:31.489 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the new"}
+13-03-2024 06:55:31.489 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the new"  parameterizedStepValue:"Verify the new"}}
+13-03-2024 06:55:32.852 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the new t"}
+13-03-2024 06:55:32.852 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the new t"  parameterizedStepValue:"Verify the new t"}}
+13-03-2024 06:55:32.873 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:55:32.874 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}  allSteps:{stepValue:"Enter text in the add todo input field"  parameterizedStepValue:"Enter text in the add todo input field"}  allSteps:{stepValue:"Click the add todo button"  parameterizedStepValue:"Click the add todo button"}  allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}}
+13-03-2024 06:55:32.874 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:55:32.874 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:55:32.876 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:55:32.876 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}  allSteps:{stepValue:"Enter text in the add todo input field"  parameterizedStepValue:"Enter text in the add todo input field"}  allSteps:{stepValue:"Click the add todo button"  parameterizedStepValue:"Click the add todo button"}}
+13-03-2024 06:55:32.876 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:55:32.876 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:55:33.065 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the new to"}
+13-03-2024 06:55:33.065 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the new to"  parameterizedStepValue:"Verify the new to"}}
+13-03-2024 06:55:33.331 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the new todo"}
+13-03-2024 06:55:33.332 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the new todo"  parameterizedStepValue:"Verify the new todo"}}
+13-03-2024 06:55:34.156 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the new todo i"}
+13-03-2024 06:55:34.156 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the new todo i"  parameterizedStepValue:"Verify the new todo i"}}
+13-03-2024 06:55:34.178 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:55:34.178 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}  allSteps:{stepValue:"Enter text in the add todo input field"  parameterizedStepValue:"Enter text in the add todo input field"}  allSteps:{stepValue:"Click the add todo button"  parameterizedStepValue:"Click the add todo button"}}
+13-03-2024 06:55:34.178 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:55:34.178 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:55:34.180 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:55:34.180 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}  allSteps:{stepValue:"Enter text in the add todo input field"  parameterizedStepValue:"Enter text in the add todo input field"}  allSteps:{stepValue:"Click the add todo button"  parameterizedStepValue:"Click the add todo button"}  allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}}
+13-03-2024 06:55:34.180 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:55:34.180 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:55:34.359 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the new todo is"}
+13-03-2024 06:55:34.359 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the new todo is"  parameterizedStepValue:"Verify the new todo is"}}
+13-03-2024 06:55:34.875 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the new todo is a"}
+13-03-2024 06:55:34.875 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the new todo is a"  parameterizedStepValue:"Verify the new todo is a"}}
+13-03-2024 06:55:34.897 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:55:34.897 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}  allSteps:{stepValue:"Enter text in the add todo input field"  parameterizedStepValue:"Enter text in the add todo input field"}  allSteps:{stepValue:"Click the add todo button"  parameterizedStepValue:"Click the add todo button"}  allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}}
+13-03-2024 06:55:34.898 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:55:34.898 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:55:34.899 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:55:34.899 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}  allSteps:{stepValue:"Enter text in the add todo input field"  parameterizedStepValue:"Enter text in the add todo input field"}  allSteps:{stepValue:"Click the add todo button"  parameterizedStepValue:"Click the add todo button"}}
+13-03-2024 06:55:34.899 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:55:34.900 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:55:35.552 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the new todo is ad"}
+13-03-2024 06:55:35.552 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the new todo is ad"  parameterizedStepValue:"Verify the new todo is ad"}}
+13-03-2024 06:55:35.794 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the new todo is add"}
+13-03-2024 06:55:35.794 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the new todo is add"  parameterizedStepValue:"Verify the new todo is add"}}
+13-03-2024 06:55:36.079 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the new todo is adde"}
+13-03-2024 06:55:36.079 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the new todo is adde"  parameterizedStepValue:"Verify the new todo is adde"}}
+13-03-2024 06:55:36.551 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the new todo is added"}
+13-03-2024 06:55:36.551 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the new todo is added"  parameterizedStepValue:"Verify the new todo is added"}}
+13-03-2024 06:55:54.016 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the new todo is added t"}
+13-03-2024 06:55:54.017 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the new todo is added t"  parameterizedStepValue:"Verify the new todo is added t"}}
+13-03-2024 06:55:54.038 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:55:54.038 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}  allSteps:{stepValue:"Enter text in the add todo input field"  parameterizedStepValue:"Enter text in the add todo input field"}  allSteps:{stepValue:"Click the add todo button"  parameterizedStepValue:"Click the add todo button"}}
+13-03-2024 06:55:54.039 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:55:54.039 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:55:54.041 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:55:54.041 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}  allSteps:{stepValue:"Enter text in the add todo input field"  parameterizedStepValue:"Enter text in the add todo input field"}  allSteps:{stepValue:"Click the add todo button"  parameterizedStepValue:"Click the add todo button"}}
+13-03-2024 06:55:54.041 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:55:54.041 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:55:54.221 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the new todo is added to"}
+13-03-2024 06:55:54.221 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the new todo is added to"  parameterizedStepValue:"Verify the new todo is added to"}}
+13-03-2024 06:55:54.564 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the new todo is added to t"}
+13-03-2024 06:55:54.564 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the new todo is added to t"  parameterizedStepValue:"Verify the new todo is added to t"}}
+13-03-2024 06:55:54.584 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:55:54.584 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}  allSteps:{stepValue:"Enter text in the add todo input field"  parameterizedStepValue:"Enter text in the add todo input field"}  allSteps:{stepValue:"Click the add todo button"  parameterizedStepValue:"Click the add todo button"}}
+13-03-2024 06:55:54.584 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:55:54.584 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:55:54.586 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:55:54.587 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Enter text in the add todo input field"  parameterizedStepValue:"Enter text in the add todo input field"}  allSteps:{stepValue:"Click the add todo button"  parameterizedStepValue:"Click the add todo button"}  allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}}
+13-03-2024 06:55:54.587 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:55:54.587 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:55:54.793 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the new todo is added to th"}
+13-03-2024 06:55:54.793 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the new todo is added to th"  parameterizedStepValue:"Verify the new todo is added to th"}}
+13-03-2024 06:55:55.000 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the new todo is added to the"}
+13-03-2024 06:55:55.000 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the new todo is added to the"  parameterizedStepValue:"Verify the new todo is added to the"}}
+13-03-2024 06:55:55.619 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the new todo is added to the l"}
+13-03-2024 06:55:55.619 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the new todo is added to the l"  parameterizedStepValue:"Verify the new todo is added to the l"}}
+13-03-2024 06:55:55.627 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the new todo is added to the li"}
+13-03-2024 06:55:55.627 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the new todo is added to the li"  parameterizedStepValue:"Verify the new todo is added to the li"}}
+13-03-2024 06:55:55.650 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:55:55.651 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}  allSteps:{stepValue:"Enter text in the add todo input field"  parameterizedStepValue:"Enter text in the add todo input field"}  allSteps:{stepValue:"Click the add todo button"  parameterizedStepValue:"Click the add todo button"}}
+13-03-2024 06:55:55.651 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:55:55.651 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:55:55.653 [Gauge] [DEBUG] Api Request Received: messageType:GetAllStepsRequest  messageId:2  allStepsRequest:{}
+13-03-2024 06:55:55.653 [Gauge] [DEBUG] Sending API response: messageType:GetAllStepResponse  messageId:2  allStepsResponse:{allSteps:{stepValue:"Click the add todo button"  parameterizedStepValue:"Click the add todo button"}  allSteps:{stepValue:"Navigate to the application URL"  parameterizedStepValue:"Navigate to the application URL"}  allSteps:{stepValue:"Verify the todo list title is displayed"  parameterizedStepValue:"Verify the todo list title is displayed"}  allSteps:{stepValue:"Enter text in the add todo input field"  parameterizedStepValue:"Enter text in the add todo input field"}}
+13-03-2024 06:55:55.653 [Gauge] [DEBUG] Api Request Received: messageType:GetAllConceptsRequest  messageId:6  allConceptsRequest:{}
+13-03-2024 06:55:55.653 [Gauge] [DEBUG] Sending API response: messageType:GetAllConceptsResponse  messageId:6  allConceptsResponse:{}
+13-03-2024 06:55:55.755 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the new todo is added to the lis"}
+13-03-2024 06:55:55.755 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the new todo is added to the lis"  parameterizedStepValue:"Verify the new todo is added to the lis"}}
+13-03-2024 06:55:55.961 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Verify the new todo is added to the list"}
+13-03-2024 06:55:55.961 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Verify the new todo is added to the list"  parameterizedStepValue:"Verify the new todo is added to the list"}}
+13-03-2024 06:56:06.944 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/add_todo.spec
+13-03-2024 06:56:06.953 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/add_todo.spec
+13-03-2024 08:03:10.531 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+13-03-2024 08:03:10.532 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+13-03-2024 08:04:54.069 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/display_screen.spec
+13-03-2024 08:04:54.078 [Gauge] [DEBUG] Spec file added / modified: /home/masaya/source/game-todo/e2e/specs/display_screen.spec

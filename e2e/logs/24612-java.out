@@ -1,0 +1,29 @@
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+{"logLevel":"debug","message":"gauge-java took 864milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 864"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 36175"}
+{"logLevel":"info","message":"Listening on port:36175"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Loading Verify the todo list title is displayedvia reflected sources."}
+{"logLevel":"debug","message":"Loading Navigate to the application URLvia reflected sources."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tVerify the todo list title is displayed : null"}
+{"logLevel":"debug","message":"\tNavigate to the application URL : null"}
+{"logLevel":"debug","message":"Executing 'Navigate to the application URL' using 'class com.gt.CommonUtilsTest.navigateToApplicationURL"}
+Mar 13, 2024 8:11:48 AM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$1
+WARNING: The chromedriver version (122.0.6261.111) detected in PATH at /usr/local/bin/chromedriver might not be compatible with the detected chrome version (122.0.6261.128); currently, chromedriver 122.0.6261.128 is recommended for chrome 122.*, so it is advised to delete the driver in PATH and retry
+Mar 13, 2024 8:11:50 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 122
+Mar 13, 2024 8:11:50 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 122.0.6261.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.11.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+{"logLevel":"debug","message":"Executing 'Verify the todo list title is displayed' using 'class com.gt.DisplayScreenTest.verifyTodoListTitleIsDisplayed"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}

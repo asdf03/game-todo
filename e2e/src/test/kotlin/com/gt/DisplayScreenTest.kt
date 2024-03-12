@@ -1,17 +1,15 @@
 package com.gt
 
-import com.codeborne.selenide.CollectionCondition
-import com.codeborne.selenide.Condition
-import com.codeborne.selenide.Condition.*
-import com.codeborne.selenide.Selenide.`$`
-import com.codeborne.selenide.Selenide.`$$`
 import com.thoughtworks.gauge.Step
-import org.openqa.selenium.WebDriver
+import com.codeborne.selenide.Selenide.open
+import com.codeborne.selenide.Selenide.`$`
+
 
 class DisplayScreenTest {
 
   @Step("Verify the todo list title is displayed")
   fun verifyTodoListTitleIsDisplayed() {
+    open("http://localhost:8080")
     `$`("#todo-title").isDisplayed
   }
 
